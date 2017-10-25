@@ -8,8 +8,8 @@
 		<h1>Milestone 2</h1>
 		<h2>Content Strategy</h2>
 		<p>My site will be one page, and will consist of the following sections:</p>
-		<p><strong>Header Nav Bar:</strong> Navigation Bar to each section of my page</p>
-		<p><strong>Banner Image:</strong> This will be a banner image with the Skapa Development logo front and center</p>
+		<p><strong>Header Nav Bar:</strong> This section will be a standard nav bar that will be linked to each section of my page and allow the user to quickly get to the section of their interest</p>
+		<p><strong>Banner Image:</strong> This section will contain a banner image with the Skapa Development logo front and center</p>
 		<p><strong>How It Works:</strong> The content strategy for this section is to provide a high level understanding of Skapa Development's unique business concept which focus on  a partnership structure which results in a lower cost of development, a custom development solution and the 7+ years of both enterprise and startup business knowledge I bring.</p>
 		<p><strong>Chart Data:</strong> These charts will focus on potential cost savings of and benefits of using Skapa Development based on other projects outcomes and online research.</p>
 		<p><strong>Projects:</strong> The projects section will feature three prominent development projects: The projects to be featured are TBD.</p>
