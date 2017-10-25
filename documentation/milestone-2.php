@@ -7,7 +7,7 @@
 	<body>
 		<h1>Milestone 2</h1>
 		<h2>Content Strategy</h2>
-		<p>My site will be one page, and will consist of the following sections:</p>
+		<p>My site will be one page. The overall goal for the content on this site is to peak client interest without overwhelming the user with too much information. My website will consist of the following sections:</p>
 		<p><strong>Header Nav Bar:</strong> This section will be a standard nav bar that will be linked to each section of my page and allow the user to quickly get to the section of their interest</p>
 		<p><strong>Banner Image:</strong> This section will contain a banner image with the Skapa Development logo front and center</p>
 		<p><strong>How It Works:</strong> The content strategy for this section is to provide a high level understanding of Skapa Development's unique business concept which focus on  a partnership structure which results in a lower cost of development, a custom development solution and the 7+ years of both enterprise and startup business knowledge I bring.</p>
