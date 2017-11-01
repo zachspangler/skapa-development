@@ -21,6 +21,24 @@ section {
 	font-family: 'Iceland', cursive;
 }
 
+header {
+	background-image: url(images/background.jpg);
+	position: relative;
+	width: 100%;
+	text-align: center;
+	color: white;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 400px;
+}
+
+h1 {
+	display: inline-block;
+}
+
 /************************************
 *HOW IT WORKS
  ************************************/
