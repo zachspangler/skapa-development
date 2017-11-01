@@ -25,11 +25,11 @@
 		</header>
 		<!----How It Works---->
 		<section id="about">
-			<h2>How It Works</h2>
 			<div class="container">
 				<div class="row">
 					<div class="col">
-						1 of 2
+						<h4>How It Works</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					</div>
 					<div class="col">
 						1 of 2
@@ -39,30 +39,36 @@
 		</section>
 		<!----Projects---->
 		<section id="projects">
-			<h2>Projects</h2>
+			<h4>Projects</h4>
 			<div class="container">
 				<div class="row">
 					<div class="col">
-						1 of 3
+						<div class="card">
+							<img class="card-img-top" src="..." alt="Lalana">
+						</div>
 					</div>
 					<div class="col">
-						1 of 3
+						<div class="card">
+							<img class="card-img-top" src="..." alt="CrowdVibe">
+						</div>
 					</div>
 					<div class="col">
-						1 of 3
+						<div class="card">
+							<img class="card-img-top" src="..." alt="Handoff">
+						</div>
 					</div>
 				</div>
 		</section>
 		<!----About Us---->
 		<section id="about-us">
-			<h2>About Us</h2>
 			<div class="container">
 				<div class="row">
 					<div class="col">
 						1 of 2
 					</div>
 					<div class="col">
-						1 of 2
+						<h4>About Us</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					</div>
 				</div>
 			</div>
@@ -70,10 +76,20 @@
 		<!----Contact Us---->
 		<section id="contact-us">
 			<h2>Contact Us</h2>
+			<form>
+				<input type="text" name="customername" placeholder="Name"><br>
+				<input type="email" name="email" placeholder="Email"><br>
+				<input type="tel" name="phone" placeholder="Phone"><br>
+				<textarea type="text" name="message" placeholder="Message"></textarea><br>
+				<input type="submit" value="Submit">
+			</form>
 		</section>
 		<!----Footer---->
 		<footer>
-			&copy 2017 Skapa Development. All Right Reserved
+			<i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+			<i class="fa fa-github fa-3x" aria-hidden="true"></i>
+			<i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+			<p>&copy2017 Skapa Development. All Right Reserved</p>
 		</footer>
 		<!-- jQuery first, then Tether, then Bootstrap JS. -->
 		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
