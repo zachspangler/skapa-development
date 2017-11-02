@@ -1,18 +1,35 @@
 /************************************
 *ALL
  ************************************/
-h4 {
+body {
+	font-family: 'Source Serif Pro', serif;
+}
+
+
+h4, p {
 	text-align: center;
+	vertical-align: middle;
 	display: block;
 }
+
 section {
 	padding: 2em;
 }
 
+.card {
+	border-radius: 10px;
+	outline: none;
+}
+
+
 /************************************
 *NAV BAR
  ************************************/
-
+.nav-item {
+	color: #242A31;
+	display: inline-block;
+	float: right;
+}
 
 /************************************
 *BANNER
@@ -38,12 +55,36 @@ h1 {
 /************************************
 *HOW IT WORKS
  ************************************/
+#about {
+	vertical-align: middle;
+}
 
+.circle {
+	background-color: #EEEEEE;
+	border-radius: 100%;
+	display: inline-block;
+	margin: auto;
+	text-align: center;
+	height: 75px;
+	width: 150px;
+	padding: .5em;
+}
 
+i {
+	color: #e0d72c;
+	margin: auto;
+	text-align: center;
+}
+
+#work-process {
+	text-align: center;
+}
 /************************************
 *PROJECTS
  ************************************/
-
+#projects {
+	background-color: #EEEEEE;
+}
 
 /************************************
 *ABOUT US
@@ -53,10 +94,40 @@ h1 {
 /************************************
 *CONTACT US
  ************************************/
-form {
-
+#contact-us {
+	background-color: #EEEEEE;
 }
 
+form {
+	margin: auto;
+	display: block;
+}
+
+input[type=submit] {
+	background: #EEEEEE;
+	border: none;
+	padding: 8px 10px 8px 10px;
+	border-radius: 5px;
+	color: #A8BACE;
+}
+
+input[type=submit]:hover {
+	background: #394D61;
+}
 /************************************
 *FOOTER
  ************************************/
+footer {
+	background-color: #242A31;
+	color: white;
+	padding: 1em;
+	text-align: center;
+}
+
+footer i {
+	padding: .2em;
+	color: #EEEEEE;
+	margin: auto;
+	text-align: center;
+}
+
