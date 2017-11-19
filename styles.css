@@ -21,14 +21,52 @@ section {
 	outline: none;
 }
 
+.card-img-top {
+	height: 200px;
+}
 
+img {
+	display: block;
+}
 /************************************
 *NAV BAR
  ************************************/
 .nav-item {
-	color: #242A31;
+	color: #232A32;
 	display: inline-block;
 	float: right;
+}
+
+.navbar-nav {
+	float: right;
+}
+/************************************
+*JUMBOTRON
+ ************************************/
+.jumbotron {
+	color: white;
+	font-family: 'Orbitron', sans-serif;
+	background-image: url("images/lamp-copy.jpg");
+	height: 30em;
+	text-align: left;
+}
+
+.title {
+	font-size: 5em;
+	text-align: left;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.title2 {
+	font-size: 3.5em;
+	text-align: left;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.subtext {
+	text-align: left;
 }
 
 /************************************
@@ -37,10 +75,11 @@ section {
 #company {
 	font-family: 'Iceland', cursive;
 	font-size: 30px;
+	color: #EEEEEE;
 }
 
 header {
-	background-image: url(images/background.jpg);
+	background-image: url("images/background.jpg");
 	position: relative;
 	width: 100%;
 	text-align: center;
@@ -55,8 +94,23 @@ h1 {
 /************************************
 *HOW IT WORKS
  ************************************/
+
+
+
+
+
 #about {
 	vertical-align: middle;
+	display: inline-block;
+}
+.icon-how {
+	display: inline-block;
+	margin: auto;
+}
+
+h6 {
+	text-align: center;
+	padding-bottom: 2em;
 }
 
 .circle {
@@ -70,10 +124,15 @@ h1 {
 	padding: .5em;
 }
 
+.outline {
+	background-color: lightgray;
+}
+
 i {
 	color: #e0d72c;
 	margin: auto;
 	text-align: center;
+	display: block;
 }
 
 #work-process {
@@ -86,16 +145,55 @@ i {
 	background-color: #EEEEEE;
 }
 
-/************************************
-*ABOUT US
- ************************************/
+.crowdvibe {
+	border-bottom: solid #818a9e 1px;
+	margin: 2em;
+}
 
+.lalana{
+	border-bottom: solid #818a9e 1px;
+	margin: 2em;
+}
+
+.image{
+	display: block;
+	margin: auto;
+}
+
+#project-name{
+	font-family: 'Montserrat-bold', sans-serif;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #4974ab;
+}
+
+#project-description {
+	color: #999694;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/************************************
+*APPROACH
+ ************************************/
+#process-title {
+	color: #818a9e;
+	text-align: left;
+	font-size: 4em;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#process-description {
+	color: #818a9e;
+	text-align: left;
+	font-size: 4em;
+}
 
 /************************************
 *CONTACT US
  ************************************/
 #contact-us {
 	background-color: #EEEEEE;
+	text-align: center;
 }
 
 form {
@@ -103,22 +201,32 @@ form {
 	display: block;
 }
 
+#customername, #email, #phone, #message, #subject {
+	width: 300px;
+}
+
+#message {
+	height: 150px;
+}
+
 input[type=submit] {
 	background: #EEEEEE;
-	border: none;
-	padding: 8px 10px 8px 10px;
+	border: 3px solid #e0d72c;
+	padding: .5rem .75rem;
 	border-radius: 5px;
-	color: #A8BACE;
+	color: #818786;
 }
 
 input[type=submit]:hover {
-	background: #394D61;
+	background: #818786;
+	border: 3px solid #e0d72c;
+	color: #EEEEEE;
 }
 /************************************
 *FOOTER
  ************************************/
 footer {
-	background-color: #242A31;
+	background-color: #081120;
 	color: white;
 	padding: 1em;
 	text-align: center;
@@ -130,4 +238,3 @@ footer i {
 	margin: auto;
 	text-align: center;
 }
-

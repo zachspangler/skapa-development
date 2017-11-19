@@ -10,11 +10,18 @@
 		<!----Google Fonts---->
 		<link href="https://fonts.googleapis.com/css?family=Iceland" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Vollkorn+SC" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 		<!----Bootstrap Link---->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
 				integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 		<!----Skapa Development CSS---->
 		<link rel="stylesheet" type="text/css" href="styles.css">
+		<!----Skapa Favicon---->
+		<link rel="shortcut icon" href="images/lamp-favicon.jpg" type="image/jpg">
 	</head>
 	<body>
 		<!----Nav Bar---->
@@ -35,121 +42,114 @@
 		</nav>
 		<!----Banner---->
 		<div class="jumbotron">
-			<h1 class="display-3">SKAPA</h1>
-			<h3 class="display-3">DEVELOPMENT</h3>
-			<p class="lead">Creating Software To Solve Your Problems</p>
+			<p class="title">SKAPA</p>
+			<p class="title2">DEVELOPMENT</p>
+			<p class="subtext">Creating Software To Solve Your Problems</p>
 		</div>
 		<!----How It Works---->
 		<section id="how-it-works">
-			<h4>How It Works</h4>
+			<h4>What We Do</h4>
 			<div class="row">
-				<div class="col-md-3"></div>
-				<div class="col-md-6">
-					<h6>Now more than ever before businesses can alleviate pain points with software solutions. Skapa
-						Development
-						uses a four step approach and a unique partnership model to keep the costs of a solution extremely
-						affordable.</h6>
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<h1>We create prototypes, not presentations.</h1>
 				</div>
-				<div class="col-md-3"></div>
+				<div class="col-md-2"></div>
 			</div>
-			<div class="container">
-				<div class="card-deck">
-					<div class="card border-0">
-						<img class="title" src="images/number-one.png" style="height: 200px;">
-						<div class="card-body">
-							<h4 class="card-title">Pain</h4>
-						</div>
-					</div>
-					<div class="card border-0">
-						<i class="fa fa-puzzle-piece fa-3x" aria-hidden="true"></i>
-						<div class="card-body">
-							<h4 class="card-title">Design</h4>
-							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-								incididunt ut labore et dolore magna aliqua.</p>
-						</div>
-					</div>
-					<div class="card border-0">
-						<i class="fa fa-magic fa-3x" aria-hidden="true"></i>
-						<div class="card-body">
-							<h4 class="card-title">Development Magic</h4>
-							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-								incididunt ut labore et dolore magna aliqua.</p>
-						</div>
-					</div>
-					<div class="card border-0">
-						<i class="fa fa-lightbulb-o fa-3x" aria-hidden="true"></i>
-						<div class="card-body">
-							<h4 class="card-title">Solution</h4>
-							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-								incididunt ut labore et dolore magna aliqua.</p>
-						</div>
-					</div>
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<h3>Based solid strategic framework and real, relevant research.</h3>
 				</div>
+				<div class="col-md-2"></div>
 			</div>
 		</section>
 		<!----Projects---->
-		<section>
-			<h4>SOLUTIONS</h4>
-			<div class="card-deck">
-				<div class="mt-3 card">
-					<a href="http://www.espn.com/" target="_blank">
-						<img class="card-img-top" src="images/pattern.jpg" alt="Card image cap">
-					</a>
-					<div class="card-body">
-						<h4 class="card-title">Lalana</h4>
-						<p class="card-text">Lalana is a task tracking system being used across industries to provide clear
-							and concise reports to management team at any time.</p>
-						<p class="card-text">
-							<small class="text-muted">Last updated 3 mins ago</small>
-						</p>
+		<section id="projects">
+			<h4 id="project-name">Our Work</h4>
+			<div class="container">
+				<div class="row lalana">
+					<div class="col-sm-6">
+						<h3 id="project-name">Lalana</h3>
+						<p id="project-description">Lalana is a task tracking system being used across industries to provide clear and concise reports to management team at any time.</p>
+						<button type="button" class="btn btn-outline-info">Info</button>
+					</div>
+					<div class="col-sm-6">
+						<a href="http://www.espn.com/" target="_blank">
+							<img src="images/lalana.png " alt="Lalana Tracking" class="mx-auto d-block"></a>
 					</div>
 				</div>
-				<div class="mt-3 card">
-					<a href="http://www.espn.com/" target="_blank">
-						<img class="card-img-top" src="images/pattern.jpg " alt="Card image cap">
-					</a>
-					<div class="card-body">
-						<h4 class="card-title">CrowdVibe</h4>
-						<p class="card-text">CrowdVibe is connecting people using through live event posting.</p>
-						<p class="card-text">
-							<input type="submit" value="Visit Website">
-						</p>
+			</div>
+			<div class="container">
+				<div class="row crowdvibe">
+					<div class="col-sm-6">
+						<a href="http://www.espn.com/" target="_blank">
+							<img src="images/crowdvibe.png" alt="Crowdvibe" class="mx-auto d-block"></a>
+					</div>
+					<div class="col-sm-6">
+						<h3 id="project-name">CrowdVibe</h3>
+						<p id="project-description">CrowdVibe is connecting people using through live event posting.</p>
+						<button type="button" class="btn btn-outline-info">Info</button>
 					</div>
 				</div>
-				<div class="mt-3 card">
-					<a href="http://www.espn.com/" target="_blank">
-						<img class="card-img-top" src="images/pattern.jpg" alt="Card image cap">
-					</a>
-					<div class="card-body">
-						<h4 class="card-title">Handoff</h4>
-						<p class="card-text">Handoff was developed to eliminate the pain points of the lead handoff process
-							from SDRs to an Inside Sales team.</p>
-						<p class="card-text">
-							<small class="text-muted">Last updated 3 mins ago</small>
-						</p>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<h3 id="project-name">Handoff</h3>
+						<p id="project-description">Handoff was developed to eliminate the pain points of the lead handoff process from SDRs to an Inside Sales team.</p>
+						<button type="button" class="btn btn-outline-info">Info</button>
+					</div>
+					<div class="col-sm-6">
+						<a href="http://www.espn.com/" target="_blank">
+							<img src="images/handoff.png" alt="Handoff" class="mx-auto d-block"></a>
 					</div>
 				</div>
 			</div>
 		</section>
 		<!----About Us---->
-		<section id="about-us">
+		<section>
+			<h4>Process</h4>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-5">
-						<img class="img-fluid mx-auto d-block" src="images/about_us.jpg" alt="about-us">
+					<div class="col-md-3">
+						<img src="images/number-one.jpg" alt="step one">
 					</div>
-					<div class="col-md-7">
-						<h4>About Us</h4>
-						<p>Our name comes from the Swedish verb meaning, <strong>to create</strong>. Merriam-Webster
-							dictionary defines create as “to bring into existence.” At Skapa our goal is to create tools to
-							eliminate headaches for business owners through the development of web applications.</p>
-						<p>We partner with you to offer a low cost solution that addresses your frustrations and pain points
-							to create. Our team is not just developers we also have years of experience working in business
-							across a variety of industries from tech to consumer goods.</p>
-						<p>The cost of development using Skapa is typically 60% lower than if you decided to use another
-							development shop because our unique business model. This gives you the business owner the ability
-							to alleviate pain points from your business cost-effectively.</p>
+					<div class="col-md-6">
+						<p id="process-title">RESEARCH & IDEATION</p>
+						<p id="process-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					</div>
+					<div class="col-md-3"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<img src="images/number-two.jpg" alt="step two">
+					</div>
+					<div class="col-md-4">
+						<p class="process-title">RESEARCH & IDEATION</p>
+						<p class="process-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+					<div class="col-md-2"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-3">
+						<img src="images/number-three.jpg" alt="first three">
+					</div>
+					<div class="col-md-6">
+						<p class="process-title">RESEARCH & IDEATION</p>
+						<p class="process-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+					<div class="col-md-3"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-3">
+						<img src="images/number-four.jpg" alt="step four">
+					</div>
+					<div class="col-md-6">
+						<p class="process-title">PROTOTYPING</p>
+						<p class="process-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+					<div class="col-md-3"></div>
 				</div>
 			</div>
 		</section>
