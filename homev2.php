@@ -61,94 +61,27 @@
 				<div class="row">
 					<div class="col-md-12">
 						<p id="about-top">WHAT</p>
-				</div>
-				<div class="row">
-					<div class="col-md-2" id="about-left">HOW</p>
-					</div>
-					<div class="col-md-8">
-						<p id="about-content">This is where my content will go.</p>
-					</div>
-					<div class="col-md-2">
-						<p id="about-right">WHY</p>
 					</div>
 				</div>
+					<div class="row">
+							<div class="col-md-2">
+								<a id="about-left" href="#">HOW</a>
+							</div>
+							<div class="col-md-8" id="about-content">
+								<h1>Our purpose</h1>
+								<h3>Your business' growth</h3>
+								<p>Curious how it all works choose a question or <a href="#contact-us">Drop Us A Line</a></p>
+						</div>
+						<div class="col-md-2">
+							<a id="about-left" href="#">WHY</a>
+						</div>
+					</div>
 					<div class="row">
 						<div class="col-md-12">
 							<p id="about-bottom">HOW MUCH</p>
 						</div>
 					</div>
 				</div>
-			</div>
-<!--			<div id="accordion" role="tablist">-->
-<!--				<div class="card">-->
-<!--					<a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">-->
-<!--					<div class="card-header" role="tab" id="headingOne">-->
-<!--						<h5 class="mb-0">WHAT</h5>-->
-<!--					</div>-->
-<!--					</a>-->
-<!--					<div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">-->
-<!--						<div class="card-body">-->
-<!--							<h3>What</h3>-->
-<!--							<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>-->
-<!--						</div>-->
-<!--					</div>-->
-<!--				</div>-->
-<!--				<div class="card">-->
-<!--					<div class="card-header" role="tab" id="headingTwo">-->
-<!--						<h5 class="mb-0">-->
-<!--							<a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">-->
-<!--								WHY-->
-<!--							</a>-->
-<!--						</h5>-->
-<!--					</div>-->
-<!--					<div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">-->
-<!--						<div class="card-body">-->
-<!--							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.-->
-<!--						</div>-->
-<!--					</div>-->
-<!--				</div>-->
-<!--				<div class="card">-->
-<!--					<div class="card-header" role="tab" id="headingThree">-->
-<!--						<h5 class="mb-0">-->
-<!--							<a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">-->
-<!--								HOW-->
-<!--							</a>-->
-<!--						</h5>-->
-<!--					</div>-->
-<!--					<div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">-->
-<!--						<div class="card-body">-->
-<!--							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.-->
-<!--						</div>-->
-<!--					</div>-->
-<!--				</div>-->
-<!--			<div class="card">-->
-<!--				<div class="card-header" role="tab" id="headingFour">-->
-<!--					<h5 class="mb-0">-->
-<!--						<a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">-->
-<!--							WHO-->
-<!--						</a>-->
-<!--					</h5>-->
-<!--				</div>-->
-<!--				<div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">-->
-<!--					<div class="card-body">-->
-<!--						Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.-->
-<!--					</div>-->
-<!--				</div>-->
-<!--			</div>-->
-<!--			<div class="card">-->
-<!--				<div class="card-header" role="tab" id="headingFive">-->
-<!--					<h5 class="mb-0">-->
-<!--						<a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseFive">-->
-<!--							HOW MUCH-->
-<!--						</a>-->
-<!--					</h5>-->
-<!--				</div>-->
-<!--				<div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">-->
-<!--					<div class="card-body">-->
-<!--						Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.-->
-<!--					</div>-->
-<!--				</div>-->
-<!--			</div>-->
 		</section>
 		<!----Projects---->
 		<section id="projects">
@@ -159,14 +92,15 @@
 						<h3 id="project-name">Lalana</h3>
 						<ul>
 							<li><span id="project-details">Issue:</span> Lorem ipsum dolor sit amet</li>
-							<li><span id="project-details">Solution:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+							<li><span id="project-details">Solution:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							</li>
 							<li><span id="project-details">Impact:</span> Lorem ipsum dolor sit amet</li>
 						</ul>
 					</div>
 					<div class="col-sm-6">
-							<a href="http://www.espn.com/" target="_blank">
-								<img src="images/lalana.png " alt="Lalana Tracking" class="mx-auto d-block">
-							</a>
+						<a href="http://www.espn.com/" target="_blank">
+							<img src="images/lalana.png " alt="Lalana Tracking" class="mx-auto d-block">
+						</a>
 					</div>
 				</div>
 			</div>
@@ -180,7 +114,8 @@
 						<h3 id="project-name">CrowdVibe</h3>
 						<ul>
 							<li><span id="project-details">Issue:</span> Lorem ipsum dolor sit amet</li>
-							<li><span id="project-details">Solution:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+							<li><span id="project-details">Solution:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							</li>
 							<li><span id="project-details">Impact:</span> Lorem ipsum dolor sit amet</li>
 						</ul>
 					</div>
@@ -192,7 +127,8 @@
 						<h3 id="project-name">Handoff</h3>
 						<ul>
 							<li><span id="project-details">Issue:</span> Lorem ipsum dolor sit amet</li>
-							<li><span id="project-details">Solution:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+							<li><span id="project-details">Solution:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							</li>
 							<li><span id="project-details">Impact:</span> Lorem ipsum dolor sit amet</li>
 						</ul>
 					</div>
@@ -204,47 +140,51 @@
 			</div>
 		</section>
 		<!----About Us---->
-		<section  id="about-us">
+		<section id="the-process" class="img-fluid">
 			<p id="section-heading">THE PROCESS</p>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-3">
-						<img src="images/number-one.jpg" class="img-fluid" alt="step one">
+						<p class="container-fluid" id="process-number-odd">01</p>
 					</div>
 					<div class="col-md-7">
 						<p id="process-name">RESEARCH & IDEATION</p>
-						<p id="process-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p id="process-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
 					</div>
 					<div class="col-md-2"></div>
 				</div>
 				<div class="row">
 					<div class="col-md-3"></div>
 					<div class="col-md-3">
-						<img src="images/number-two.jpg" class="img-fluid" alt="step two">
+						<p class="container-fluid" id="process-number-two">02</p>
 					</div>
 					<div class="col-md-6">
 						<p id="process-name">PROTOTYPING</p>
-						<p id="process-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p id="process-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-3">
-						<img src="images/number-threev2.png" class="img-fluid" alt="first three">
+						<p class="container-fluid" id="process-number-odd">03</p>
 					</div>
 					<div class="col-md-7">
 						<p id="process-name">ITERATION</p>
-						<p id="process-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p id="process-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
 					</div>
 					<div class="col-md-2"></div>
 				</div>
 				<div class="row">
 					<div class="col-md-2"></div>
 					<div class="col-md-4">
-						<img src="images/number-fourv2.png" class="img-fluid" alt="step four">
+						<p class="container-fluid" id="process-number-four">04</p>
 					</div>
 					<div class="col-md-6">
 						<p id="process-name">FINAL EXPERIENCE</p>
-						<p id="process-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p id="process-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
 					</div>
 					<div class="col-md-3"></div>
 				</div>

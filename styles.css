@@ -8,12 +8,6 @@
 	color: #40454f;
 }
 
-#section-heading-white {
-	text-align: center;
-	margin: 1rem;
-	font-size: 3rem;
-	color: white;
-}
 section {
 	padding-top: 2rem;
 }
@@ -46,10 +40,6 @@ nav a:hover {
 	float: right;
 }
 
-#how-it-works {
-	text-align: center;
-	height: 40rem;
-}
 /************************************
 *JUMBOTRON
  ************************************/
@@ -83,28 +73,42 @@ nav a:hover {
 /************************************
 *WHAT WE DO
  ************************************/
+#how-it-works {
+	text-align: center;
+	background-image: url("images/chuttersnap-vert.jpg");
+	background-size: contain;
+}
+
 #about-top {
 	text-align: center;
 	font-family: 'Abril Fatface', cursive;
 	color: #081120;
 	font-size: 3rem;
 	height: 5rem;
+	position: relative;
+	display: inline-block;
 }
 
 #about-left {
+	writing-mode: vertical-rl;
 	text-orientation: upright;
 	font-family: 'Abril Fatface', cursive;
 	color: #081120;
 	font-size: 3rem;
-	height: 30rem;
+	height: 15rem;
+	position: relative;
+	display: inline-block;
 }
 
 #about-right {
+	writing-mode: vertical-rl;
 	text-orientation: upright;
 	font-family: 'Abril Fatface', cursive;
 	color: #081120;
 	font-size: 3rem;
-	height: 30rem;
+	height: 15rem;
+	position: relative;
+	display: inline-block;
 }
 
 #about-bottom {
@@ -113,47 +117,39 @@ nav a:hover {
 	color: #081120;
 	font-size: 3rem;
 	height: 5rem;
+	position: relative;
+	display: inline-block;
 }
 
 
-#accordion {
-	margin: 3em;
-}
 
-.card {
-	background-color: transparent;
-	color: black;
-	border-top: solid 2px;
-	border-right: solid 2px;
-	border-left: solid 2px;
-}
-
-.card-header {
-	font-family: 'Abril Fatface', cursive;
-	text-decoration: none;
-	color: #081120;
-	background-color: transparent;
-}
 /************************************
 *PROJECTS
  ************************************/
+#section-heading-white {
+	text-align: center;
+	margin: 1rem;
+	font-size: 3rem;
+	color: #A5A38E;
+}
+
 #projects {
-	background-image: url("images/wood.jpg");
+	/*background-image: url("images/wood.jpg");*/
+	background-color: #13131C;
 }
 
 .crowdvibe {
-	border-bottom: solid #818a9e 1px;
-	margin: 2em;
+	border-bottom: solid #A5A38E 1px;
+	padding: 2em;
 }
 
 .lalana {
-	border-bottom: solid #818a9e 1px;
-	margin: 2em;
+	border-bottom: solid #A5A38E 1px;
+	padding: 2em;
 }
 
 .handoff {
-	border-bottom: solid #818a9e 1px;
-	margin: 2em;
+	padding: 2em;
 }
 
 .image {
@@ -163,16 +159,16 @@ nav a:hover {
 
 #project-name {
 	font-size: 1.5em;
-	color: white;
+	color: #666674;
 }
 
 li {
-	color: white;
+	color: #A5A38E;
 	font-family: 'Montserrat', sans-serif;
 }
 
 #project-details {
-	color: whitesmoke;
+	color: #666674;
 	font-family: 'Montserrat-bold', sans-serif;
 }
 
@@ -180,6 +176,12 @@ li {
 /************************************
 *APPROACH
  ************************************/
+#the-process {
+	background-image: url("images/chuttersnap-297554.jpg");
+	background-size: contain;
+	padding-bottom: 4rem;
+}
+
 #process-name {
 	color: #40454f;
 	text-align: left;
@@ -193,14 +195,50 @@ li {
 	margin-bottom: 1em;
 }
 
+#process-number-odd {
+	font-family: 'Abril Fatface', cursive;
+	color: #081120;
+	font-size: 10rem;
+	display: inline-block;
+	text-align: right;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+#process-number-two {
+	writing-mode: vertical-lr;
+	text-orientation: sideways;
+	font-family: 'Abril Fatface', cursive;
+	color: #081120;
+	font-size: 10rem;
+	display: inline-block;
+	text-align: right;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+#process-number-four {
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	font-family: 'Abril Fatface', cursive;
+	color: #081120;
+	font-size: 10rem;
+	display: inline-block;
+	letter-spacing: -5rem;
+	text-align: right;
+	margin-top: 0;
+	padding-top: 0;
+}
+
 
 /************************************
 *CONTACT US
  ************************************/
 #contact-us {
-	background-color: #EEEEEE;
+	background-color: #13131C;
 	text-align: center;
 	padding-bottom: 2rem;
+	color: #A5A38E;
 }
 
 form {
@@ -213,7 +251,7 @@ form {
 }
 
 #message {
-	height: 150px;
+	height: 15rem;
 }
 
 input[type=submit] {
@@ -233,15 +271,15 @@ input[type=submit]:hover {
 *FOOTER
  ************************************/
 footer {
-	background-color: #081120;
-	color: white;
+	background-color: #464651;
+	color: #0E0E1C;
 	padding: 1em;
 	text-align: center;
 }
 
 footer i {
 	padding: .2em;
-	color: #EEEEEE;
+	color: #0E0E1C;
 	margin: auto;
 	text-align: center;
 }
