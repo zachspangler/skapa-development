@@ -2,7 +2,7 @@
 *NAV BAR
  ************************************/
 #section-heading {
-	text-align: center;
+	text-align: left;
 	margin: 1rem;
 	font-size: 3rem;
 	color: #40454f;
@@ -80,46 +80,20 @@ nav a:hover {
 	background-size: cover;
 }
 
-#about-top {
-	text-align: center;
-	font-family: 'Abril Fatface', cursive;
-	color: #081120;
-	font-size: 3rem;
-	height: 5rem;
-	position: relative;
-	display: inline-block;
+#about-text {
+	text-align: left;
+	padding-left: 1em;
+	font-size: 2em;
 }
 
-#about-left {
-	writing-mode: vertical-rl;
-	text-orientation: upright;
-	font-family: 'Abril Fatface', cursive;
-	color: #081120;
-	font-size: 3rem;
-	height: 15rem;
-	position: relative;
-	display: inline-block;
+#about-subtext {
+	text-align: left;
+	padding-left: 1em;
+	font-size: 1.25em;
 }
 
-#about-right {
-	writing-mode: vertical-rl;
-	text-orientation: upright;
-	font-family: 'Abril Fatface', cursive;
-	color: #081120;
-	font-size: 3rem;
-	height: 15rem;
-	position: relative;
-	display: inline-block;
-}
-
-#about-bottom {
-	text-align: center;
-	font-family: 'Abril Fatface', cursive;
-	color: #081120;
-	font-size: 3rem;
-	height: 5rem;
-	position: relative;
-	display: inline-block;
+#yellow-text {
+	color: #dedb3c;
 }
 
 

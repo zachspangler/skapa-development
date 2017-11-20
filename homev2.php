@@ -59,28 +59,11 @@
 			<p id="section-heading">WHAT WE DO</p>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12">
-						<p id="about-top">WHAT</p>
+					<div class="col-md-6">
+						<p id="about-text">We cover a large range of creative digital projects, platforms, and campaigns with one purpose: <span id="yellow-text">to create experiences</span>.</p>
+						<p id="about-subtext">We transform brands, grow businesses, and tell brand and product stories in a most creative and fascinating way.</p>
 					</div>
-				</div>
-					<div class="row">
-							<div class="col-md-2">
-								<a id="about-left" href="#">HOW</a>
-							</div>
-							<div class="col-md-8" id="about-content">
-								<h1>Our purpose</h1>
-								<h3>Your business' growth</h3>
-								<p>Curious how it all works choose a question or <a href="#contact-us">Drop Us A Line</a></p>
-						</div>
-						<div class="col-md-2">
-							<a id="about-left" href="#">WHY</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
-							<p id="about-bottom">HOW MUCH</p>
-						</div>
-					</div>
+					<div class="col-md-6"></div>
 				</div>
 		</section>
 		<!----Projects---->
