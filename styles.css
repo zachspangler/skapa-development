@@ -24,6 +24,7 @@ section {
 	background-color: transparent;
 	color: white;
 	text-decoration: none;
+	padding-top: 0;
 }
 
 nav a {
@@ -46,7 +47,8 @@ nav a:hover {
 }
 
 #how-it-works {
-	height: 35rem;
+	text-align: center;
+	height: 40rem;
 }
 /************************************
 *JUMBOTRON
@@ -81,6 +83,38 @@ nav a:hover {
 /************************************
 *WHAT WE DO
  ************************************/
+#about-top {
+	text-align: center;
+	font-family: 'Abril Fatface', cursive;
+	color: #081120;
+	font-size: 3rem;
+	height: 5rem;
+}
+
+#about-left {
+	text-orientation: upright;
+	font-family: 'Abril Fatface', cursive;
+	color: #081120;
+	font-size: 3rem;
+	height: 30rem;
+}
+
+#about-right {
+	text-orientation: upright;
+	font-family: 'Abril Fatface', cursive;
+	color: #081120;
+	font-size: 3rem;
+	height: 30rem;
+}
+
+#about-bottom {
+	text-align: center;
+	font-family: 'Abril Fatface', cursive;
+	color: #081120;
+	font-size: 3rem;
+	height: 5rem;
+}
+
 
 #accordion {
 	margin: 3em;
