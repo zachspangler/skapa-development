@@ -36,13 +36,13 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item active">
-							<a class="nav-link" href="#">What We Do</a>
+							<a class="nav-link" href="#what-we-do">What We Do</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Featured Work</a>
+							<a class="nav-link" href="#projects">Featured Work</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">The Process</a>
+							<a class="nav-link" href="#the-process">The Process</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#contact-us">Contact</a>
@@ -55,13 +55,13 @@
 			<p class="subtext">Creating Software To Solve Your Problems</p>
 		</div>
 		<!----How It Works---->
-		<section id="how-it-works">
+		<section id="what-we-do">
 			<p id="section-heading">WHAT WE DO</p>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
 						<p id="about-text">We cover a large range of creative digital projects, platforms, and campaigns with one purpose: <span id="yellow-text">to create experiences</span>.</p>
-						<p id="about-subtext">We transform brands, grow businesses, and tell brand and product stories in a most creative and fascinating way.</p>
+						<p id="about-subtext">--We transform brands, grow businesses, and tell brand and product stories in a most creative and fascinating way.</p>
 					</div>
 					<div class="col-md-6"></div>
 				</div>
@@ -175,66 +175,77 @@
 		</section>
 		<!----Contact Us---->
 		<section id="contact-us">
-			<h2>Want to work together?</h2>
-			<p>We would love to hear about your project, please fill out the info below.</p>
-			<div class="row">
-				<div class="col"></div>
-				<div class="col">
-					<form class="form-horizontal">
-						<div class="form-group">
-							<div class="input-group">
-								<div class="input-group-addon">
-									<i class="fa fa-user"></i>
-								</div>
-								<input type="text" id="customername" placeholder="Name"/>
-							</div>
-						</div>
-						<div class="form-group">
-							<div class="input-group">
-								<div class="input-group-addon">
-									<i class="fa fa-envelope"></i>
-								</div>
-								<input type="email" id="email" placeholder="Email">
-							</div>
-						</div>
-						<div class="form-group">
-							<div class="input-group">
-								<div class="input-group-addon">
-									<i class="fa fa-phone"></i>
-								</div>
-								<input type="tel" id="phone" placeholder="Phone">
-							</div>
-						</div>
-						<div class="form-group">
-							<div class="input-group">
-								<div class="input-group-addon">
-									<i class="fa fa-female"></i>
-								</div>
-								<input type="subject" id="subject" placeholder="Subject">
-							</div>
-						</div>
-						<div class="form-group">
-							<div class="input-group">
-								<div class="input-group-addon">
-									<i class="fa fa-comment"></i>
-								</div>
-								<textarea type="text" id="message" placeholder="Message"></textarea>
-							</div>
-						</div>
-						<input type="submit" value="Submit">
-					</form>
+			<p id="contact-us-text">Interested in working together?</p>
+			<p id="contact-us-subtext">We are always looking for new partners and projects</p>
+			<p id="contact-us-subtext">Shoot us an email or fill out the contact form below to get the conversation started</p>
+<!--			<div class="row">-->
+<!--				<div class="col"></div>-->
+<!--				<div class="col">-->
+<!--					<form class="form-horizontal">-->
+<!--						<div class="form-group">-->
+<!--							<div class="input-group">-->
+<!--								<div class="input-group-addon">-->
+<!--									<i class="fa fa-user"></i>-->
+<!--								</div>-->
+<!--								<input type="text" id="customername" placeholder="Name"/>-->
+<!--							</div>-->
+<!--						</div>-->
+<!--						<div class="form-group">-->
+<!--							<div class="input-group">-->
+<!--								<div class="input-group-addon">-->
+<!--									<i class="fa fa-envelope"></i>-->
+<!--								</div>-->
+<!--								<input type="email" id="email" placeholder="Email">-->
+<!--							</div>-->
+<!--						</div>-->
+<!--						<div class="form-group">-->
+<!--							<div class="input-group">-->
+<!--								<div class="input-group-addon">-->
+<!--									<i class="fa fa-phone"></i>-->
+<!--								</div>-->
+<!--								<input type="tel" id="phone" placeholder="Phone">-->
+<!--							</div>-->
+<!--						</div>-->
+<!--						<div class="form-group">-->
+<!--							<div class="input-group">-->
+<!--								<div class="input-group-addon">-->
+<!--									<i class="fa fa-female"></i>-->
+<!--								</div>-->
+<!--								<input type="subject" id="subject" placeholder="Subject">-->
+<!--							</div>-->
+<!--						</div>-->
+<!--						<div class="form-group">-->
+<!--							<div class="input-group">-->
+<!--								<div class="input-group-addon">-->
+<!--									<i class="fa fa-comment"></i>-->
+<!--								</div>-->
+<!--								<textarea type="text" id="message" placeholder="Message"></textarea>-->
+<!--							</div>-->
+<!--						</div>-->
+<!--						<input type="submit" value="Submit">-->
+<!--					</form>-->
+			<button type="button">Contact</button>
 				</div>
 				<div class="col"></div>
 		</section>
 		<!----Footer---->
 		<footer>
 			<div class="row">
-				<div class="col-2"></div>
-				<div class="col-8">
-					<a href="#" target="_blank"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
-					<a href="#" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-					<a href="#" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-					<p>&copy2017 Skapa Development. All Right Reserved</p>
+				<div class="col-md-6">
+					<p id="our-office">Our Office</p>
+					<p id="location">Albuquerque</p>
+					<p>hello@skapadevelopment.com</p>
+					<p>505-555-5555</p>
+					<p>525 Buena Vista Dr SE</p>
+					<p>Albuquerque, NM 87106</p>
+				</div>
+				<div class="col-md-6">
+					<p id="reach-out">Reach Out</p>
+					<a href="#" target="_blank" id="reach-out"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>
+					<a href="#" target="_blank" id="reach-out"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+					<a href="#" target="_blank" id="reach-out"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+					<a href="#" target="_blank" id="reach-out"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+					<p id="reach=out">&copy2017 Skapa Development</p>
 				</div>
 				<div class="col-2"></div>
 			</div>
