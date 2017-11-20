@@ -20,6 +20,21 @@ section {
 /************************************
 *NAV BAR
  ************************************/
+.navbar {
+	background-color: transparent;
+	color: white;
+	text-decoration: none;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: yellow;
+}
+
 .nav-item {
 	color: #232A32;
 	display: inline-block;
@@ -38,7 +53,8 @@ section {
  ************************************/
 .jumbotron {
 	color: white;
-	font-family: 'Orbitron', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
 	background-image: url("images/lamp-copy.jpg");
 	height: 30em;
 	text-align: left;
@@ -66,6 +82,24 @@ section {
 *WHAT WE DO
  ************************************/
 
+#accordion {
+	margin: 3em;
+}
+
+.card {
+	background-color: transparent;
+	color: black;
+	border-top: solid 2px;
+	border-right: solid 2px;
+	border-left: solid 2px;
+}
+
+.card-header {
+	font-family: 'Abril Fatface', cursive;
+	text-decoration: none;
+	color: #081120;
+	background-color: transparent;
+}
 /************************************
 *PROJECTS
  ************************************/
