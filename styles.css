@@ -149,10 +149,91 @@ li {
 	font-family: 'Montserrat-bold', sans-serif;
 }
 
-
 /************************************
-*APPROACH
+*TEST
  ************************************/
+#projects-2 {
+	background-color: whitesmoke;
+	padding-bottom: 2em;
+}
+
+#crowdvide-test {
+	display: block;
+	border: 1em solid whitesmoke;
+	background-image: url("images/social.jpg");
+	background-size: cover;
+	float: right;
+}
+
+#lalana-test {
+	padding: 2em;
+	display: block;
+	border: 1em solid whitesmoke;
+	background-image: url("images/calenar.jpg");
+	background-size: cover;
+	height: 25rem;
+}
+
+#handoff-test {
+	padding: 2em;
+	display: block;
+	border: 1em solid whitesmoke;
+	background-image: url("images/business.jpg");
+	background-size: cover;
+	height: 25rem;
+}
+
+#project-description-title {
+	text-align: right;
+	font-weight: bold;
+	color: #232A32;
+	font-size: 2.5em;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+#project-description-subtext {
+	text-align: right;
+	font-weight: bold;
+	color: #232A32;
+	font-size: 1em;
+}
+
+#project-description-title-left {
+	text-align: left;
+	font-weight: bold;
+	color: #232A32;
+	font-size: 2.5em;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+#project-description-subtext-left {
+	text-align: left;
+	font-weight: bold;
+	color: #232A32;
+	font-size: 1em;
+}
+
+
+#project-description-title-center {
+	text-align: center;
+	font-weight: bold;
+	color: #232A32;
+	font-size: 2.5em;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+#project-description-subtext-center {
+	text-align: center;
+	font-weight: bold;
+	color: #232A32;
+	font-size: 1em;
+}
+	/************************************
+	*APPROACH
+	 ************************************/
 #the-process {
 	background-image: url("images/chuttersnap-297554.jpg");
 	background-size: cover;
@@ -290,7 +371,6 @@ footer p {
 	text-align: left;
 	padding-bottom: 0;
 	padding-top: 0;
-	padding-left: 16rem;
 	margin: 0;
 }
 

@@ -60,8 +60,10 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
-						<p id="about-text">We cover a large range of creative digital projects, platforms, and campaigns with one purpose: <span id="yellow-text">to create experiences</span>.</p>
-						<p id="about-subtext">--We transform brands, grow businesses, and tell brand and product stories in a most creative and fascinating way.</p>
+						<p id="about-text">We cover a large range of creative digital projects, platforms, and campaigns with
+							one purpose: <span id="yellow-text">to create experiences</span>.</p>
+						<p id="about-subtext">--We transform brands, grow businesses, and tell brand and product stories in a
+							most creative and fascinating way.</p>
 					</div>
 					<div class="col-md-6"></div>
 				</div>
@@ -75,7 +77,8 @@
 						<h3 id="project-name">Lalana</h3>
 						<ul>
 							<li><span id="project-details">Issue:</span> Lorem ipsum dolor sit amet</li>
-							<li><span id="project-details">Solution:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							<li><span id="project-details">Solution:</span> Lorem ipsum dolor sit amet, consectetur adipiscing
+								elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 							</li>
 							<li><span id="project-details">Impact:</span> Lorem ipsum dolor sit amet</li>
 						</ul>
@@ -97,7 +100,8 @@
 						<h3 id="project-name">CrowdVibe</h3>
 						<ul>
 							<li><span id="project-details">Issue:</span> Lorem ipsum dolor sit amet</li>
-							<li><span id="project-details">Solution:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							<li><span id="project-details">Solution:</span> Lorem ipsum dolor sit amet, consectetur adipiscing
+								elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 							</li>
 							<li><span id="project-details">Impact:</span> Lorem ipsum dolor sit amet</li>
 						</ul>
@@ -110,7 +114,8 @@
 						<h3 id="project-name">Handoff</h3>
 						<ul>
 							<li><span id="project-details">Issue:</span> Lorem ipsum dolor sit amet</li>
-							<li><span id="project-details">Solution:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							<li><span id="project-details">Solution:</span> Lorem ipsum dolor sit amet, consectetur adipiscing
+								elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 							</li>
 							<li><span id="project-details">Impact:</span> Lorem ipsum dolor sit amet</li>
 						</ul>
@@ -177,7 +182,8 @@
 		<section id="contact-us">
 			<p id="contact-us-text">Interested in working together?</p>
 			<p id="contact-us-subtext">We are always looking for new partners and projects</p>
-			<p id="contact-us-subtext">Shoot us an email or fill out the contact form below to get the conversation started</p>
+			<p id="contact-us-subtext">Shoot us an email or fill out the contact form below to get the conversation
+				started</p>
 			<!--			<div class="row">-->
 			<!--				<div class="col"></div>-->
 			<!--				<div class="col">-->
@@ -225,7 +231,6 @@
 			<!--						<input type="submit" value="Submit">-->
 			<!--					</form>-->
 			<button type="button">Contact</button>
-			</div>
 			<div class="col"></div>
 		</section>
 		<!----Footer---->

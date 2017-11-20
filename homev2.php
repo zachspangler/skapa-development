@@ -39,7 +39,7 @@
 							<a class="nav-link" href="#what-we-do">What We Do</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#projects">Featured Work</a>
+							<a class="nav-link" href="#projects-2">Featured Work</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#the-process">The Process</a>
@@ -67,57 +67,24 @@
 				</div>
 		</section>
 		<!----Projects---->
-		<section id="projects">
+		<section id="projects-2">
 			<p id="section-heading-white">FEATURED WORK</p>
 			<div class="container">
-				<div class="row lalana">
-					<div class="col-sm-6">
-						<h3 id="project-name">Lalana</h3>
-						<ul>
-							<li><span id="project-details">Issue:</span> Lorem ipsum dolor sit amet</li>
-							<li><span id="project-details">Solution:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-							</li>
-							<li><span id="project-details">Impact:</span> Lorem ipsum dolor sit amet</li>
-						</ul>
+				<div class="row">
+					<div class="col-md-5" id="crowdvide-test">
+						<p id="project-description-title-left">CrowdVibe</p>
+						<p id="project-description-subtext-left">Social Media Live</p>
 					</div>
-					<div class="col-sm-6">
-						<a href="http://www.espn.com/" target="_blank">
-							<img src="images/lalana.png " alt="Lalana Tracking" class="mx-auto d-block">
-						</a>
+					<div class="col-md-7" id="lalana-test">
+						<p id="project-description-title">Lalana</p>
+						<p id="project-description-subtext">Task Management<br>
+							Simplified</p>
 					</div>
 				</div>
-			</div>
-			<div class="container">
-				<div class="row crowdvibe">
-					<div class="col-sm-6">
-						<a href="http://www.espn.com/" target="_blank">
-							<img src="images/crowdvibev2.png" alt="Crowdvibe" class="mx-auto d-block"></a>
-					</div>
-					<div class="col-sm-6">
-						<h3 id="project-name">CrowdVibe</h3>
-						<ul>
-							<li><span id="project-details">Issue:</span> Lorem ipsum dolor sit amet</li>
-							<li><span id="project-details">Solution:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-							</li>
-							<li><span id="project-details">Impact:</span> Lorem ipsum dolor sit amet</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row handoff">
-					<div class="col-sm-6">
-						<h3 id="project-name">Handoff</h3>
-						<ul>
-							<li><span id="project-details">Issue:</span> Lorem ipsum dolor sit amet</li>
-							<li><span id="project-details">Solution:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-							</li>
-							<li><span id="project-details">Impact:</span> Lorem ipsum dolor sit amet</li>
-						</ul>
-					</div>
-					<div class="col-sm-6">
-						<a href="http://www.espn.com/" target="_blank">
-							<img src="images/handoff.png" alt="Handoff" class="mx-auto d-block "></a>
+				<div class="row">
+					<div class="col-md-12" id="handoff-test">
+						<p id="project-description-title-center">Handoff</p>
+						<p id="project-description-subtext-center">Simplifying Lead Distribution</p>
 					</div>
 				</div>
 			</div>
@@ -177,56 +144,56 @@
 		<section id="contact-us">
 			<p id="contact-us-text">Interested in working together?</p>
 			<p id="contact-us-subtext">We are always looking for new partners and projects</p>
-			<p id="contact-us-subtext">Shoot us an email or fill out the contact form below to get the conversation started</p>
-<!--			<div class="row">-->
-<!--				<div class="col"></div>-->
-<!--				<div class="col">-->
-<!--					<form class="form-horizontal">-->
-<!--						<div class="form-group">-->
-<!--							<div class="input-group">-->
-<!--								<div class="input-group-addon">-->
-<!--									<i class="fa fa-user"></i>-->
-<!--								</div>-->
-<!--								<input type="text" id="customername" placeholder="Name"/>-->
-<!--							</div>-->
-<!--						</div>-->
-<!--						<div class="form-group">-->
-<!--							<div class="input-group">-->
-<!--								<div class="input-group-addon">-->
-<!--									<i class="fa fa-envelope"></i>-->
-<!--								</div>-->
-<!--								<input type="email" id="email" placeholder="Email">-->
-<!--							</div>-->
-<!--						</div>-->
-<!--						<div class="form-group">-->
-<!--							<div class="input-group">-->
-<!--								<div class="input-group-addon">-->
-<!--									<i class="fa fa-phone"></i>-->
-<!--								</div>-->
-<!--								<input type="tel" id="phone" placeholder="Phone">-->
-<!--							</div>-->
-<!--						</div>-->
-<!--						<div class="form-group">-->
-<!--							<div class="input-group">-->
-<!--								<div class="input-group-addon">-->
-<!--									<i class="fa fa-female"></i>-->
-<!--								</div>-->
-<!--								<input type="subject" id="subject" placeholder="Subject">-->
-<!--							</div>-->
-<!--						</div>-->
-<!--						<div class="form-group">-->
-<!--							<div class="input-group">-->
-<!--								<div class="input-group-addon">-->
-<!--									<i class="fa fa-comment"></i>-->
-<!--								</div>-->
-<!--								<textarea type="text" id="message" placeholder="Message"></textarea>-->
-<!--							</div>-->
-<!--						</div>-->
-<!--						<input type="submit" value="Submit">-->
-<!--					</form>-->
+			<p id="contact-us-subtext">Shoot us an email or fill out the contact form below to get the conversation
+				started</p>
+			<!--			<div class="row">-->
+			<!--				<div class="col"></div>-->
+			<!--				<div class="col">-->
+			<!--					<form class="form-horizontal">-->
+			<!--						<div class="form-group">-->
+			<!--							<div class="input-group">-->
+			<!--								<div class="input-group-addon">-->
+			<!--									<i class="fa fa-user"></i>-->
+			<!--								</div>-->
+			<!--								<input type="text" id="customername" placeholder="Name"/>-->
+			<!--							</div>-->
+			<!--						</div>-->
+			<!--						<div class="form-group">-->
+			<!--							<div class="input-group">-->
+			<!--								<div class="input-group-addon">-->
+			<!--									<i class="fa fa-envelope"></i>-->
+			<!--								</div>-->
+			<!--								<input type="email" id="email" placeholder="Email">-->
+			<!--							</div>-->
+			<!--						</div>-->
+			<!--						<div class="form-group">-->
+			<!--							<div class="input-group">-->
+			<!--								<div class="input-group-addon">-->
+			<!--									<i class="fa fa-phone"></i>-->
+			<!--								</div>-->
+			<!--								<input type="tel" id="phone" placeholder="Phone">-->
+			<!--							</div>-->
+			<!--						</div>-->
+			<!--						<div class="form-group">-->
+			<!--							<div class="input-group">-->
+			<!--								<div class="input-group-addon">-->
+			<!--									<i class="fa fa-female"></i>-->
+			<!--								</div>-->
+			<!--								<input type="subject" id="subject" placeholder="Subject">-->
+			<!--							</div>-->
+			<!--						</div>-->
+			<!--						<div class="form-group">-->
+			<!--							<div class="input-group">-->
+			<!--								<div class="input-group-addon">-->
+			<!--									<i class="fa fa-comment"></i>-->
+			<!--								</div>-->
+			<!--								<textarea type="text" id="message" placeholder="Message"></textarea>-->
+			<!--							</div>-->
+			<!--						</div>-->
+			<!--						<input type="submit" value="Submit">-->
+			<!--					</form>-->
 			<button type="button">Contact</button>
-				</div>
-				<div class="col"></div>
+			<div class="col"></div>
 		</section>
 		<!----Footer---->
 		<footer>
