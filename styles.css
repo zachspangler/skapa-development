@@ -1,32 +1,21 @@
 /************************************
-*ALL
+*NAV BAR
  ************************************/
-body {
-	font-family: 'Source Serif Pro', serif;
-}
-
-
-h4, p {
+#section-heading {
 	text-align: center;
-	vertical-align: middle;
-	display: block;
+	margin: 1rem;
+	font-size: 3rem;
+	color: #40454f;
 }
 
+#section-heading-white {
+	text-align: center;
+	margin: 1rem;
+	font-size: 3rem;
+	color: white;
+}
 section {
-	padding: 2em;
-}
-
-.card {
-	border-radius: 10px;
-	outline: none;
-}
-
-.card-img-top {
-	height: 200px;
-}
-
-img {
-	display: block;
+	padding-top: 2rem;
 }
 /************************************
 *NAV BAR
@@ -39,6 +28,10 @@ img {
 
 .navbar-nav {
 	float: right;
+}
+
+#how-it-works {
+	height: 35rem;
 }
 /************************************
 *JUMBOTRON
@@ -70,79 +63,14 @@ img {
 }
 
 /************************************
-*BANNER
- ************************************/
-#company {
-	font-family: 'Iceland', cursive;
-	font-size: 30px;
-	color: #EEEEEE;
-}
-
-header {
-	background-image: url("images/background.jpg");
-	position: relative;
-	width: 100%;
-	text-align: center;
-	color: white;
-	min-height: 400px;
-}
-
-h1 {
-	display: inline-block;
-}
-
-/************************************
-*HOW IT WORKS
+*WHAT WE DO
  ************************************/
 
-
-
-
-
-#about {
-	vertical-align: middle;
-	display: inline-block;
-}
-.icon-how {
-	display: inline-block;
-	margin: auto;
-}
-
-h6 {
-	text-align: center;
-	padding-bottom: 2em;
-}
-
-.circle {
-	background-color: #EEEEEE;
-	border-radius: 100%;
-	display: inline-block;
-	margin: auto;
-	text-align: center;
-	height: 75px;
-	width: 150px;
-	padding: .5em;
-}
-
-.outline {
-	background-color: lightgray;
-}
-
-i {
-	color: #e0d72c;
-	margin: auto;
-	text-align: center;
-	display: block;
-}
-
-#work-process {
-	text-align: center;
-}
 /************************************
 *PROJECTS
  ************************************/
 #projects {
-	background-color: #EEEEEE;
+	background-image: url("images/wood.jpg");
 }
 
 .crowdvibe {
@@ -150,43 +78,53 @@ i {
 	margin: 2em;
 }
 
-.lalana{
+.lalana {
 	border-bottom: solid #818a9e 1px;
 	margin: 2em;
 }
 
-.image{
+.handoff {
+	border-bottom: solid #818a9e 1px;
+	margin: 2em;
+}
+
+.image {
 	display: block;
 	margin: auto;
 }
 
-#project-name{
-	font-family: 'Montserrat-bold', sans-serif;
-	font-weight: bold;
+#project-name {
 	font-size: 1.5em;
-	color: #4974ab;
+	color: white;
 }
 
-#project-description {
-	color: #999694;
+li {
+	color: white;
 	font-family: 'Montserrat', sans-serif;
 }
+
+#project-details {
+	color: whitesmoke;
+	font-family: 'Montserrat-bold', sans-serif;
+}
+
 
 /************************************
 *APPROACH
  ************************************/
-#process-title {
-	color: #818a9e;
+#process-name {
+	color: #40454f;
 	text-align: left;
-	font-size: 4em;
-	font-family: 'Montserrat', sans-serif;
+	font-size: 2.5em;
 }
 
 #process-description {
 	color: #818a9e;
 	text-align: left;
-	font-size: 4em;
+	font-size: 1.5em;
+	margin-bottom: 1em;
 }
+
 
 /************************************
 *CONTACT US
@@ -194,6 +132,7 @@ i {
 #contact-us {
 	background-color: #EEEEEE;
 	text-align: center;
+	padding-bottom: 2rem;
 }
 
 form {

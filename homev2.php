@@ -21,7 +21,7 @@
 		<!----Skapa Development CSS---->
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		<!----Skapa Favicon---->
-		<link rel="shortcut icon" href="images/lamp-favicon.jpg" type="image/jpg">
+		<link rel="shortcut icon" href="images/lamp-favicon.jpg" type="image/x-icon">
 	</head>
 	<body>
 		<!----Nav Bar---->
@@ -48,35 +48,34 @@
 		</div>
 		<!----How It Works---->
 		<section id="how-it-works">
-			<h4>What We Do</h4>
+			<p id="section-heading">WHAT WE DO</p>
 			<div class="row">
-				<div class="col-md-2"></div>
+				<div class="col-md-3"><img src="images/How.png"></div>
 				<div class="col-md-8">
-					<h1>We create prototypes, not presentations.</h1>
-				</div>
-				<div class="col-md-2"></div>
-			</div>
-			<div class="row">
-				<div class="col-md-2"></div>
-				<div class="col-md-8">
-					<h3>Based solid strategic framework and real, relevant research.</h3>
+					<h1>Ultimately, we solve problems.</h1>
+					<h3>By creating software to address your issues for one purpose:</h3>
+					<h5>To cost effectively, transform companies and grow businesses </h5>
 				</div>
 				<div class="col-md-2"></div>
 			</div>
 		</section>
 		<!----Projects---->
 		<section id="projects">
-			<h4 id="project-name">Our Work</h4>
+			<p id="section-heading-white">FEATURED WORK</p>
 			<div class="container">
 				<div class="row lalana">
 					<div class="col-sm-6">
 						<h3 id="project-name">Lalana</h3>
-						<p id="project-description">Lalana is a task tracking system being used across industries to provide clear and concise reports to management team at any time.</p>
-						<button type="button" class="btn btn-outline-info">Info</button>
+						<ul>
+							<li><span id="project-details">Issue:</span> Lorem ipsum dolor sit amet</li>
+							<li><span id="project-details">Solution:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+							<li><span id="project-details">Impact:</span> Lorem ipsum dolor sit amet</li>
+						</ul>
 					</div>
 					<div class="col-sm-6">
-						<a href="http://www.espn.com/" target="_blank">
-							<img src="images/lalana.png " alt="Lalana Tracking" class="mx-auto d-block"></a>
+							<a href="http://www.espn.com/" target="_blank">
+								<img src="images/lalana.png " alt="Lalana Tracking" class="mx-auto d-block">
+							</a>
 					</div>
 				</div>
 			</div>
@@ -84,70 +83,77 @@
 				<div class="row crowdvibe">
 					<div class="col-sm-6">
 						<a href="http://www.espn.com/" target="_blank">
-							<img src="images/crowdvibe.png" alt="Crowdvibe" class="mx-auto d-block"></a>
+							<img src="images/crowdvibev2.png" alt="Crowdvibe" class="mx-auto d-block"></a>
 					</div>
 					<div class="col-sm-6">
 						<h3 id="project-name">CrowdVibe</h3>
-						<p id="project-description">CrowdVibe is connecting people using through live event posting.</p>
-						<button type="button" class="btn btn-outline-info">Info</button>
+						<ul>
+							<li><span id="project-details">Issue:</span> Lorem ipsum dolor sit amet</li>
+							<li><span id="project-details">Solution:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+							<li><span id="project-details">Impact:</span> Lorem ipsum dolor sit amet</li>
+						</ul>
 					</div>
 				</div>
 			</div>
 			<div class="container">
-				<div class="row">
+				<div class="row handoff">
 					<div class="col-sm-6">
 						<h3 id="project-name">Handoff</h3>
-						<p id="project-description">Handoff was developed to eliminate the pain points of the lead handoff process from SDRs to an Inside Sales team.</p>
-						<button type="button" class="btn btn-outline-info">Info</button>
+						<ul>
+							<li><span id="project-details">Issue:</span> Lorem ipsum dolor sit amet</li>
+							<li><span id="project-details">Solution:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+							<li><span id="project-details">Impact:</span> Lorem ipsum dolor sit amet</li>
+						</ul>
 					</div>
 					<div class="col-sm-6">
 						<a href="http://www.espn.com/" target="_blank">
-							<img src="images/handoff.png" alt="Handoff" class="mx-auto d-block"></a>
+							<img src="images/handoff.png" alt="Handoff" class="mx-auto d-block "></a>
 					</div>
 				</div>
 			</div>
 		</section>
 		<!----About Us---->
-		<section>
-			<h4>Process</h4>
+		<section  id="about-us">
+			<p id="section-heading">THE PROCESS</p>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-3">
-						<img src="images/number-one.jpg" alt="step one">
+						<img src="images/number-one.jpg" class="img-fluid" alt="step one">
 					</div>
-					<div class="col-md-6">
-						<p id="process-title">RESEARCH & IDEATION</p>
+					<div class="col-md-7">
+						<p id="process-name">RESEARCH & IDEATION</p>
 						<p id="process-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					</div>
-					<div class="col-md-3"></div>
-				</div>
-				<div class="row">
-					<div class="col-md-6">
-						<img src="images/number-two.jpg" alt="step two">
-					</div>
-					<div class="col-md-4">
-						<p class="process-title">RESEARCH & IDEATION</p>
-						<p class="process-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					</div>
 					<div class="col-md-2"></div>
 				</div>
 				<div class="row">
+					<div class="col-md-3"></div>
 					<div class="col-md-3">
-						<img src="images/number-three.jpg" alt="first three">
+						<img src="images/number-two.jpg" class="img-fluid" alt="step two">
 					</div>
 					<div class="col-md-6">
-						<p class="process-title">RESEARCH & IDEATION</p>
-						<p class="process-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p id="process-name">PROTOTYPING</p>
+						<p id="process-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					</div>
-					<div class="col-md-3"></div>
 				</div>
 				<div class="row">
 					<div class="col-md-3">
-						<img src="images/number-four.jpg" alt="step four">
+						<img src="images/number-threev2.png" class="img-fluid" alt="first three">
+					</div>
+					<div class="col-md-7">
+						<p id="process-name">ITERATION</p>
+						<p id="process-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+					<div class="col-md-2"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-2"></div>
+					<div class="col-md-4">
+						<img src="images/number-fourv2.png" class="img-fluid" alt="step four">
 					</div>
 					<div class="col-md-6">
-						<p class="process-title">PROTOTYPING</p>
-						<p class="process-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p id="process-name">FINAL EXPERIENCE</p>
+						<p id="process-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					</div>
 					<div class="col-md-3"></div>
 				</div>
