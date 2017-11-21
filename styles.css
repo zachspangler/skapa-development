@@ -1,7 +1,7 @@
 /************************************
 *NAV BAR
  ************************************/
-#section-heading {
+.section-heading {
 	text-align: left;
 	margin: 1rem;
 	font-size: 3rem;
@@ -70,7 +70,7 @@ nav a:hover {
  ************************************/
 #what-we-do {
 	text-align: center;
-	background-image: url("images/chuttersnap-vert.jpg");
+	background-image: url("images/color-dispersion-vert.jpg");
 	background-size: cover;
 	padding-bottom: 3em;
 }
@@ -89,7 +89,6 @@ nav a:hover {
 	color: #212126;
 }
 
-
 #blue-text {
 	color: #0E0E1C;
 	font-weight: bold;
@@ -97,7 +96,7 @@ nav a:hover {
 /************************************
 *PROJECTS
  ************************************/
-#section-heading-white {
+.section-heading-white {
 	text-align: center;
 	margin: 1rem;
 	font-size: 3rem;
@@ -105,7 +104,6 @@ nav a:hover {
 }
 
 #projects {
-	/*background-image: url("images/wood.jpg");*/
 	background-color: #13131C;
 }
 
@@ -161,7 +159,6 @@ li {
 }
 
 #crowdvide-test:hover {
-	background-image: url("images/social.jpg");
 	background-color: red;
 	size: .5em;
 }
@@ -241,25 +238,25 @@ li {
 	*APPROACH
 	 ************************************/
 #the-process {
-	background-image: url("images/chuttersnap-297554.jpg");
+	background-image: url("images/color-dispersion.jpg");
 	background-size: cover;
 	padding-bottom: 4rem;
 }
 
-#process-name {
+.process-name {
 	color: #40454f;
 	text-align: left;
 	font-size: 2.5em;
 }
 
-#process-description {
+.process-description {
 	color: #818a9e;
 	text-align: left;
 	font-size: 1.5em;
 	margin-bottom: 1em;
 }
 
-#process-number-odd {
+.process-number-odd {
 	font-family: 'Abril Fatface', cursive;
 	color: #081120;
 	font-size: 10rem;
@@ -314,7 +311,7 @@ li {
 	padding-bottom: 0;
 }
 
-#contact-us-subtext {
+.contact-us-subtext {
 	text-align: center;
 	font-size: 1.25em;
 	color: #666674;
@@ -324,47 +321,8 @@ li {
 *CONTACT FORM
  ************************************/
 
-button {
-	background-color: transparent;
-	border: 2px solid #dedb3c;
-	color: #666674;
-	padding: .7em;
-	font-weight: bold;
-}
 
-button:hover {
-	background-color: #dedb3c;
-	border: 2px solid #666674;
-	color: #13131C;
-	padding: .7em;
-}
 
-form {
-	margin: auto;
-	display: block;
-}
-
-#customername, #email, #phone, #message, #subject {
-	width: 300px;
-}
-
-#message {
-	height: 15rem;
-}
-
-input[type=submit] {
-	background: #EEEEEE;
-	border: 3px solid #e0d72c;
-	padding: .5rem .75rem;
-	border-radius: 5px;
-	color: #818786;
-}
-
-input[type=submit]:hover {
-	background: #818786;
-	border: 3px solid #e0d72c;
-	color: #EEEEEE;
-}
 /************************************
 *FOOTER
  ************************************/
