@@ -159,6 +159,12 @@ li {
 	float: right;
 }
 
+#crowdvide-test:hover {
+	background-image: url("images/social.jpg");
+	background-color: red;
+	size: .5em;
+}
+
 #lalana-test {
 	padding: 2em;
 	display: block;
@@ -297,12 +303,15 @@ li {
 	text-align: center;
 	padding-bottom: 2rem;
 	color: #A5A38E;
-	height: 20rem;
+	height: 25rem;
 }
 
 #contact-us-text {
 	text-align: center;
 	font-size: 2em;
+	line-height: 10rem;
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 #contact-us-subtext {
@@ -310,6 +319,10 @@ li {
 	font-size: 1.25em;
 	color: #666674;
 }
+
+/************************************
+*CONTACT FORM
+ ************************************/
 
 button {
 	background-color: transparent;
@@ -358,35 +371,24 @@ input[type=submit]:hover {
 footer {
 	background-color: #464651;
 	color: #0E0E1C;
-	padding: 1em;
+	padding: 2em;
 	text-align: center;
-}
 
-footer i {
-	padding: .2em;
-	color: #0E0E1C;
-	text-align: left;
 }
 
 footer p {
-	text-align: left;
-	padding-bottom: 0;
-	padding-top: 0;
-	margin: 0;
+	color: #A5A38E;
+	text-align: center;
+	padding-bottom: .5em;
 }
 
-#our-office {
-	font-size: 1.2em;
-	font-weight: bold;
-}
-
-#location {
-	font-size: 1em;
-	font-weight: bold;
+footer a {
+	color: #0E0E1C;
+	text-align: center;
+	padding-bottom: .5em;
 }
 
 #reach-out {
-	font-size: 1.2em;
-	font-weight: bold;
-	text-align: left;
+	text-align: center;
+	padding-bottom: 1em;
 }

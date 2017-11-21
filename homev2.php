@@ -9,6 +9,17 @@
 		<script src="https://use.fontawesome.com/46c6e23a21.js"></script>
 		<!----Skapa Development JS---->
 		<script src="action.js"></script>
+
+		<!-- jQuery first, then Tether, then Bootstrap JS. -->
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+				  integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+				  crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+				  integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+				  crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+				  integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+				  crossorigin="anonymous"></script>
 		<!----Google Fonts---->
 		<link href="https://fonts.googleapis.com/css?family=Iceland" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
@@ -65,8 +76,10 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
-						<p id="about-text">We cover a large range of creative digital projects, platforms, and campaigns with one purpose: <span id="blue-text">to create experiences</span>.</p>
-						<p id="about-subtext">--We transform brands, grow businesses, and tell brand and product stories in a most creative and fascinating way.</p>
+						<p id="about-text">We cover a large range of creative digital projects, platforms, and campaigns with
+							one purpose: <span id="blue-text">to create experiences</span>.</p>
+						<p id="about-subtext">--We transform brands, grow businesses, and tell brand and product stories in a
+							most creative and fascinating way.</p>
 					</div>
 					<div class="col-md-6"></div>
 				</div>
@@ -202,35 +215,34 @@
 		</section>
 		<!----Footer---->
 		<footer>
-			<div class="row">
-				<div class="col-md-6">
-					<p id="our-office">Our Office</p>
-					<p id="location">Albuquerque</p>
-					<p>hello@skapadevelopment.com</p>
-					<p>505-555-5555</p>
-					<p>525 Buena Vista Dr SE</p>
-					<p>Albuquerque, NM 87106</p>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<p>Interest in connecting another way, check out our online presence</p>
+					</div>
 				</div>
-				<div class="col-md-6">
-					<p id="reach-out">Reach Out</p>
-					<a href="#" target="_blank" id="reach-out"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>
-					<a href="#" target="_blank" id="reach-out"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
-					<a href="#" target="_blank" id="reach-out"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-					<a href="#" target="_blank" id="reach-out"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-					<p id="reach=out">&copy2017 Skapa Development</p>
+				<div class="row" id="reach-out">
+					<div class="col-md-4"></div>
+					<div class="col-md-1">
+						<a href="#" target="_blank">EMAIL</a>
+					</div>
+					<div class="col-md-1">
+						<a href="#" target="_blank">LINKEDIN</a>
+					</div>
+					<div class="col-md-1">
+						<a href="#" target="_blank">GITHUB</a>
+					</div>
+					<div class="col-md-1">
+						<a href="#" target="_blank">FACEBOOK</a>
+					</div>
+					<div class="col-md-4"></div>
 				</div>
-				<div class="col-2"></div>
+				<div class="row">
+					<div class="col-md-12">
+						<p>&copy2017 Skapa Development</p>
+					</div>
+				</div>
 			</div>
 		</footer>
-		<!-- jQuery first, then Tether, then Bootstrap JS. -->
-		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
-				  integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
-				  crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
-				  integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
-				  crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
-				  integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
-				  crossorigin="anonymous"></script>
 	</body>
 </html>
