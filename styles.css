@@ -152,11 +152,12 @@ li {
 }
 
 #crowdvide-test {
+	padding: 2em;
 	display: block;
 	border: 1em solid whitesmoke;
 	background-image: url("images/social.jpg");
 	background-size: cover;
-	float: right;
+	height: 25rem;
 }
 
 #crowdvide-test:hover {
@@ -167,7 +168,6 @@ li {
 
 #lalana-test {
 	padding: 2em;
-	display: block;
 	border: 1em solid whitesmoke;
 	background-image: url("images/calenar.jpg");
 	background-size: cover;
