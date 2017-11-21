@@ -7,6 +7,8 @@
 		<title>Skapa Development</title>
 		<!----Font Awesome Link---->
 		<script src="https://use.fontawesome.com/46c6e23a21.js"></script>
+		<!----Skapa Development JS---->
+		<script src="action.js"></script>
 		<!----Google Fonts---->
 		<link href="https://fonts.googleapis.com/css?family=Iceland" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
@@ -16,6 +18,9 @@
 		<link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 		<!----Bootstrap Link---->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
 				integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
@@ -51,7 +56,7 @@
 				</div>
 			</nav>
 			<p class="title">SKAPA</p>
-			<p class="title2">DEVELOPMENT</p>
+			<p class="h1">DEVELOPMENT</p>
 			<p class="subtext">Creating Software To Solve Your Problems</p>
 		</div>
 		<!----How It Works---->
@@ -60,7 +65,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
-						<p id="about-text">We cover a large range of creative digital projects, platforms, and campaigns with one purpose: <span id="yellow-text">to create experiences</span>.</p>
+						<p id="about-text">We cover a large range of creative digital projects, platforms, and campaigns with one purpose: <span id="blue-text">to create experiences</span>.</p>
 						<p id="about-subtext">--We transform brands, grow businesses, and tell brand and product stories in a most creative and fascinating way.</p>
 					</div>
 					<div class="col-md-6"></div>
@@ -71,7 +76,7 @@
 			<p id="section-heading-white">FEATURED WORK</p>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-5" id="crowdvide-test">
+					<div class="col-md-5" id="crowdvide-test" onmouseover="crowdVibeHover()">
 						<p id="project-description-title-left">CrowdVibe</p>
 						<p id="project-description-subtext-left">Social Media Live</p>
 					</div>
@@ -192,7 +197,7 @@
 			<!--						</div>-->
 			<!--						<input type="submit" value="Submit">-->
 			<!--					</form>-->
-			<button type="button">Contact</button>
+			<a href="#">DROP US A LINE</a>
 			<div class="col"></div>
 		</section>
 		<!----Footer---->

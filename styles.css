@@ -22,7 +22,7 @@ section {
 }
 
 nav a {
-	color: white;
+	color: #232A32;
 	text-decoration: none;
 }
 
@@ -44,13 +44,14 @@ nav a:hover {
 *JUMBOTRON
  ************************************/
 .jumbotron {
-	color: white;
+	color: #232A32;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 200;
-	background-image: url("images/lamp-copy.jpg");
-	height: 30em;
+	background-image: url("images/mountain.jpg");
+	height: 40rem;
 	text-align: left;
 	margin-bottom: 0;
+	background-size: cover;
 }
 
 .title {
@@ -58,13 +59,6 @@ nav a:hover {
 	text-align: left;
 	margin-bottom: 0;
 	padding-bottom: 0;
-}
-
-.title2 {
-	font-size: 3.5em;
-	text-align: left;
-	margin-top: 0;
-	padding-top: 0;
 }
 
 .subtext {
@@ -85,21 +79,21 @@ nav a:hover {
 	text-align: left;
 	padding-left: 1em;
 	font-size: 2em;
+	color: #464651;
 }
 
 #about-subtext {
 	text-align: left;
 	padding-left: 3em;
 	font-size: 1.25em;
-	color: #666674;
-}
-
-#yellow-text {
-	color: #dedb3c;
+	color: #212126;
 }
 
 
-
+#blue-text {
+	color: #0E0E1C;
+	font-weight: bold;
+}
 /************************************
 *PROJECTS
  ************************************/
@@ -190,6 +184,7 @@ li {
 	font-size: 2.5em;
 	padding-bottom: 0;
 	margin-bottom: 0;
+	font-family: 'Special Elite', cursive;
 }
 
 #project-description-subtext {
@@ -197,6 +192,7 @@ li {
 	font-weight: bold;
 	color: #232A32;
 	font-size: 1em;
+	font-family: 'Special Elite', cursive;
 }
 
 #project-description-title-left {
@@ -206,6 +202,7 @@ li {
 	font-size: 2.5em;
 	padding-bottom: 0;
 	margin-bottom: 0;
+	font-family: 'Permanent Marker', cursive;
 }
 
 #project-description-subtext-left {
@@ -213,6 +210,7 @@ li {
 	font-weight: bold;
 	color: #232A32;
 	font-size: 1em;
+	font-family: 'Permanent Marker', cursive;
 }
 
 
@@ -223,6 +221,7 @@ li {
 	font-size: 2.5em;
 	padding-bottom: 0;
 	margin-bottom: 0;
+	font-family: 'Lato', sans-serif;
 }
 
 #project-description-subtext-center {
@@ -230,6 +229,7 @@ li {
 	font-weight: bold;
 	color: #232A32;
 	font-size: 1em;
+	font-family: 'Lato', sans-serif;
 }
 	/************************************
 	*APPROACH
@@ -276,13 +276,13 @@ li {
 }
 
 #process-number-four {
-	writing-mode: vertical-rl;
-	text-orientation: upright;
+	transform:rotate(-180deg);
+	writing-mode: vertical-lr;
+	text-orientation: sideways;
 	font-family: 'Abril Fatface', cursive;
 	color: #081120;
 	font-size: 10rem;
 	display: inline-block;
-	letter-spacing: -5rem;
 	text-align: right;
 	margin-top: 0;
 	padding-top: 0;
@@ -297,6 +297,7 @@ li {
 	text-align: center;
 	padding-bottom: 2rem;
 	color: #A5A38E;
+	height: 20rem;
 }
 
 #contact-us-text {
