@@ -42,3 +42,9 @@ On the sm breakpoint and larger (>576px) I might consider placing the project th
 The layout plan you have for the thumbnails and text under "How It Works" should be ok, but the length of the actual copy/content will be a big determining factor regarding what layout options are best. This section could get a little tricky, and you may need to nest a grid within a column here (see Nested Rows/Columns link above). When I read your Content Strategy I get the impression that this section is fairly important. I would consider layout and design choices carefully in this case - ensure that the design decisions highlight and support clear comprehension of your content.
 
 Nice work - your Milestone 2&alpha; passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). You're clear to begin development on this project.
+
+## Milestone2&beta;
+
+Awesome Job On PWP Milestone2A. Other than a few content changes and cleaning up padding issues your PWP seems (minus contact form) polished and ready for final delivery. I do reccommend changing the font color for the process sesction (it can be very hard to read.
+
+### TIER IV
