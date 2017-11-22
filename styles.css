@@ -47,7 +47,7 @@ nav a:hover {
 	color: #232A32;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 200;
-	background-image: url("images/mountain.jpg");
+	background-image: url("https://dl.dropboxusercontent.com/s/mdjh7quyp87wt09/mountain.jpg?dl=0");
 	height: 40rem;
 	text-align: left;
 	margin-bottom: 0;
@@ -70,7 +70,7 @@ nav a:hover {
  ************************************/
 #what-we-do {
 	text-align: center;
-	background-image: url("images/color-dispersion-vert.jpg");
+	background-image: url("https://dl.dropboxusercontent.com/s/1uke37rz8x8qv92/color-dispersion-vert.jpg?dl=0");
 	background-size: cover;
 	padding-bottom: 3em;
 }
@@ -142,6 +142,99 @@ li {
 }
 
 /************************************
+*OVERLAY FROM BOTTOM - CROWDVIBE
+ ************************************/
+.overlay-bottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #008CBA;
+	opacity: .7;
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	transition: .5s ease;
+}
+
+.crowdvibe2:hover .overlay-bottom {
+	height: 70%;
+}
+
+.text-bottom {
+	color: white;
+	font-size: 15px;
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+/************************************
+*OVERLAY FROM LEFT - LALANA
+ ************************************/
+.overlay-left {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #008CBA;
+	opacity: .7;
+	overflow: hidden;
+	width: 0;
+	height: 100%;
+	transition: .5s ease;
+}
+
+.lalana2:hover .overlay-left {
+	width: 70%;
+}
+
+.text-left {
+	color: white;
+	font-size: 15px;
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 90%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+/************************************
+*OVERLAY FROM RIGHT - HANDOFF
+ ************************************/
+.overlay-left-handoff {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #008CBA;
+	opacity: .7;
+	overflow: hidden;
+	width: 0;
+	height: 100%;
+	transition: .5s ease;
+}
+
+.handoff2:hover .overlay-left-handoff {
+	width: 40%;
+}
+
+.text-left-handoff {
+	color: white;
+	font-size: 15px;
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+/************************************
 *TEST
  ************************************/
 #projects-2 {
@@ -153,20 +246,19 @@ li {
 	padding: 2em;
 	display: block;
 	border: 1em solid whitesmoke;
-	background-image: url("images/social.jpg");
+	background-image: url("https://dl.dropboxusercontent.com/s/zje8c681w9w06ru/social.jpg?dl=0");
 	background-size: cover;
 	height: 25rem;
 }
 
 #crowdvide-test:hover {
 	background-color: red;
-	size: .5em;
 }
 
 #lalana-test {
 	padding: 2em;
 	border: 1em solid whitesmoke;
-	background-image: url("images/calenar.jpg");
+	background-image: url("https://dl.dropboxusercontent.com/s/fxlmrl5kzroybb9/calenar.jpg?dl=0");
 	background-size: cover;
 	height: 25rem;
 }
@@ -175,7 +267,7 @@ li {
 	padding: 2em;
 	display: block;
 	border: 1em solid whitesmoke;
-	background-image: url("images/business.jpg");
+	background-image: url("https://dl.dropboxusercontent.com/s/4shgb3760ind2tj/business.jpg?dl=0");
 	background-size: cover;
 	height: 25rem;
 }
@@ -238,7 +330,7 @@ li {
 	*APPROACH
 	 ************************************/
 #the-process {
-	background-image: url("images/color-dispersion.jpg");
+	background-image: url("https://dl.dropboxusercontent.com/s/831sh0o0auydtxp/color-dispersion.jpg?dl=0");
 	background-size: cover;
 	padding-bottom: 4rem;
 }
@@ -300,7 +392,6 @@ li {
 	text-align: center;
 	padding-bottom: 2rem;
 	color: #A5A38E;
-	height: 25rem;
 }
 
 #contact-us-text {
@@ -317,10 +408,18 @@ li {
 	color: #666674;
 }
 
+#headingOne {
+	background-color: #13131C;
+	border-radius: none;
+}
+
+.card-body {
+	background-color: #13131C;
+}
+
 /************************************
 *CONTACT FORM
  ************************************/
-
 
 
 /************************************
@@ -331,7 +430,6 @@ footer {
 	color: #0E0E1C;
 	padding: 2em;
 	text-align: center;
-
 }
 
 footer p {
