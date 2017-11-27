@@ -203,8 +203,8 @@
 							<div class="col-md-4"></div>
 							<div class="col-md-4">
 								<div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
-									<div class="card-body">
-										<form class="form-horizontal" id="skapa-development-form">
+									<div class="input-group">
+										<form id="skapa-development-form" action="php/mailer.php" method="post">
 											<div class="form-group">
 												<div class="input-group">
 													<div class="input-group-addon">
