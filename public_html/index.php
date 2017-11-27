@@ -210,7 +210,7 @@
 													<div class="input-group-addon">
 														<i class="fa fa-user"></i>
 													</div>
-													<input type="text" id="customername" placeholder="Name">
+													<input type="text" id="name" placeholder="Name">
 												</div>
 											</div>
 											<div class="form-group">
@@ -254,7 +254,7 @@
 			</div>
 			<!--empty area for form error/success output-->
 			<div class="row">
-				<div class="col-xs-12">
+				<div class="col-md-12">
 					<div id="output-area"></div>
 				</div>
 			</div>
