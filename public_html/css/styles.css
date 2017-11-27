@@ -437,10 +437,18 @@ i {
 	color: #A5A38E;
 }
 
-.input-group-addon, #customername, #email, #phone, #message {
+.input-group-addon, #name, #email, #phone, #message {
 	background: transparent;
 	border: none;
 	border-bottom: solid #A5A38E 2px;
+}
+
+#name, #email, #phone, #message {
+	width: 100%;
+}
+
+::placeholder {
+	text-align: left;
 }
 
 .fa-paper-plane {
