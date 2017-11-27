@@ -14,7 +14,7 @@ $(document).ready(function(){
 	 **/
 
 	/* begin validate function here */
-	$("#rochelles-contact-form").validate({
+	$("#skapa-development-form").validate({
 
 		// setup handling of form errors
 		debug: true,
@@ -55,9 +55,9 @@ $(document).ready(function(){
 
 		// AJAX submit the form data to back end if rules pass
 		submitHandler: function(form) {
-			$("#contact-form").ajaxSubmit({
+			$("#skapa-development-form").ajaxSubmit({
 				type: "POST",
-				url: $("#contact-form").attr("action"),
+				url: $("#skapa-development-form").attr("action"),
 
 				success: function(ajaxOutput) {
 					// clear the output area's formatting
@@ -68,7 +68,7 @@ $(document).ready(function(){
 
 					// reset the form if it was successful
 					if($(".alert-success").length >= 1) {
-						$("#contact-form")[0].reset();
+						$("#skapa-development-form")[0].reset();
 					}
 				}
 			})
