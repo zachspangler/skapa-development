@@ -42,6 +42,16 @@
 		<link rel="shortcut icon" href="https://dl.dropboxusercontent.com/s/tnl4e63cixdw13r/skapa_favicon.png?dl=0"
 				type="image/x-icon">
 
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110227165-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-110227165-1');
+		</script>
+
 		<title>Skapa Development</title>
 	</head>
 	<body>
