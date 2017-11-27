@@ -31,7 +31,7 @@ try {
 	 **/
 	$name = filter_input(INPUT_POST, "name", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	$email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
-	$subject = filter_input(INPUT_POST, "subject", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$phone = filter_input(INPUT_POST, "phone", FILTER_SANITIZE_NUMBER_INT, FILTER_FLAG_NO_ENCODE_QUOTES);
 	$message = filter_input(INPUT_POST, "message", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 
 	// create Swift message
@@ -51,7 +51,7 @@ try {
 	$swiftMessage->setTo($recipients);
 
 	// attach the subject line to the message
-	$swiftMessage->setSubject($subject);
+	$swiftMessage->setSubject("Contact request from " . $name);
 
 	/**
 	 * Attach the actual message to the message.
@@ -64,8 +64,8 @@ try {
 	 * this lets users who aren't viewing HTML content in Emails still access your
 	 * links.
 	 **/
-	$swiftMessage->setBody($message, "text/html");
-	$swiftMessage->addPart(html_entity_decode($message), "text/plain");
+	$swiftMessage->setBody($message . $phone, "text/html");
+	$swiftMessage->addPart(html_entity_decode($message . $phone, "text/plain"));
 
 	/**
 	 * Send the Email via SMTP. The SMTP server here is configured to relay

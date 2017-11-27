@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>Skapa Development</title>
 		<!-- jQuery first, then Tether, then Bootstrap JS. -->
-		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"
 				  integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
 				  crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
@@ -38,7 +38,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
 				integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 		<!-- Skapa Development CSS -->
-		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
 		<!-- Skapa Favicon -->
 		<link rel="shortcut icon" href="https://dl.dropboxusercontent.com/s/tnl4e63cixdw13r/skapa_favicon.png?dl=0"
 				type="image/x-icon">
@@ -269,16 +269,16 @@
 				<div class="row" id="reach-out">
 					<div class="col-md-4"></div>
 					<div class="col-md-1">
-						<a href="#" target="_blank">EMAIL</a>
+						<a href="#">EMAIL</a>
 					</div>
 					<div class="col-md-1">
-						<a href="#" target="_blank">LINKEDIN</a>
+						<a href="https://www.linkedin.com/in/zachary-spangler-66b1a019/" target="_blank">LINKEDIN</a>
 					</div>
 					<div class="col-md-1">
-						<a href="#" target="_blank">GITHUB</a>
+						<a href="https://github.com/zachspangler" target="_blank">GITHUB</a>
 					</div>
 					<div class="col-md-1">
-						<a href="#" target="_blank">FACEBOOK</a>
+						<a href="https://www.facebook.com" target="_blank">FACEBOOK</a>
 					</div>
 					<div class="col-md-4"></div>
 				</div>
