@@ -424,6 +424,16 @@ li {
 /************************************
 *CONTACT FORM
  ************************************/
+form {
+	display: inline-block;
+	margin: auto;
+}
+
+.card-header {
+	border: none;
+	border-collapse: collapse;
+}
+
 .card {
 	background-color: #13131C;
 	text-align: center;
@@ -441,6 +451,7 @@ i {
 	background: transparent;
 	border: none;
 	border-bottom: solid #A5A38E 2px;
+	color: white;
 }
 
 #name, #email, #phone, #message {
