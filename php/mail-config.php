@@ -12,8 +12,8 @@
  **/
 
 // your Google reCAPTCHA keys here
-$siteKey = '-- reCAPTCHA SITE KEY --';
-$secret = '-- reCAPTCHA SECRET KEY --';
+$siteKey = '6Le6CjoUAAAAAFwrgt0yTT0qQWklid4Z1jnhhHY_';
+$secret = '6Le6CjoUAAAAAOs1Aub5gm7CYh-ciTss-MW0alGL';
 
 /**
  * attach the recipients to the message

@@ -5,16 +5,6 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>Skapa Development</title>
-		<!-- Font Awesome Link -->
-		<script src="https://use.fontawesome.com/46c6e23a21.js"></script>
-		<!-- jQuery Form, Additional Methods, Validate -->
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
-		<!-- Skapa Development Form Validator -->
-		<script src="js/form-validate.js"></script>
-		<!-- Google reCAPTCHA -->
-		<script src='https://www.google.com/recaptcha/api.js'></script>
 		<!-- jQuery first, then Tether, then Bootstrap JS. -->
 		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
 				  integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
@@ -25,6 +15,19 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
 				  integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
 				  crossorigin="anonymous"></script>
+		<!-- jQuery Form, Additional Methods, Validate -->
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+		<!-- Font Awesome Link -->
+		<script src="https://use.fontawesome.com/46c6e23a21.js"></script>
+		<!-- Skapa Development Form Validator -->
+		<script src="js/form-validate.js"></script>
+		<!-- Google reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 		<!--Google Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
@@ -37,14 +40,16 @@
 		<!-- Skapa Development CSS -->
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		<!-- Skapa Favicon -->
-		<link rel="shortcut icon" href="images/#" type="image/x-icon">
+		<link rel="shortcut icon" href="https://dl.dropboxusercontent.com/s/tnl4e63cixdw13r/skapa_favicon.png?dl=0"
+				type="image/x-icon">
 	</head>
 	<body>
 		<!-- Banner -->
 		<div class="jumbotron">
 			<!-- Nav Bar -->
 			<nav class="navbar navbar-expand-lg">
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+						  aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -105,7 +110,8 @@
 						<div class="overlay-left">
 							<div class="text-left">
 								<p class="problem"><strong>Problem:</strong> Lack of Simple Task Management System</p>
-								<p class="app-description"><strong>Solution:</strong> Lalana was developed to simply the task mangement process. Using weekly update emails and simplified views for reporting we have changed the industry</p>
+								<p class="app-description"><strong>Solution:</strong> Lalana was developed to simply the task management process. Using weekly update emails and simplified views for reporting we have
+									changed the industry</p>
 								<p class="partner"><strong>Initial Client:</strong> Davita</p>
 								<p class="services"><strong>Our Work:</strong> Full Site Development</p>
 							</div>
@@ -118,8 +124,9 @@
 						<p id="project-description-subtext-center">Simplifying Lead Distribution</p>
 						<div class="overlay-left-handoff">
 							<div class="text-left-handoff">
-								<p class="problem"><strong>Problem:</strong>Lead Distribution to Sales Agent</p>
-								<p class="app-description"><strong>Solution:</strong> Handoff allows companies to choose a vareity of methods to distribute leads to the Inside Sales as well as reporting and tracking success and each sales person</p>
+								<p class="problem"><strong>Problem:</strong> Lead Distribution to Sales Agent</p>
+								<p class="app-description"><strong>Solution:</strong> Handoff allows companies to choose a
+									vareity of methods to distribute leads to the Inside Sales as well as reporting and tracking success and each sales person</p>
 								<p class="partner"><strong>Initial Client:</strong> Lavu</p>
 								<p class="services"><strong>Our Work:</strong> Full Site Development</p>
 							</div>
@@ -190,54 +197,56 @@
 							</a>
 						</h5>
 					</div>
-					<div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
-						<div class="card-body">
-							<form class="form-horizontal">
-								<div class="form-group">
-									<div class="input-group">
-										<div class="input-group-addon">
-											<i class="fa fa-user"></i>
-										</div>
-										<input type="text" id="customername" placeholder="Name"/>
+					<div class="container contact-form">
+						<div class="row">
+							<div class="col-md-4"></div>
+							<div class="col-md-4">
+								<div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+									<div class="card-body">
+										<form class="form-horizontal">
+											<div class="form-group">
+												<div class="input-group">
+													<div class="input-group-addon">
+														<i class="fa fa-user"></i>
+													</div>
+													<input type="text" id="customername" placeholder="Name">
+												</div>
+											</div>
+											<div class="form-group">
+												<div class="input-group">
+													<div class="input-group-addon">
+														<i class="fa fa-envelope"></i>
+													</div>
+													<input type="email" id="email" placeholder="Email">
+												</div>
+											</div>
+											<div class="form-group">
+												<div class="input-group">
+													<div class="input-group-addon">
+														<i class="fa fa-phone"></i>
+													</div>
+													<input type="tel" id="phone" placeholder="Phone">
+												</div>
+											</div>
+											<div class="form-group">
+												<div class="input-group">
+													<div class="input-group-addon">
+														<i class="fa fa-comment"></i>
+													</div>
+													<textarea id="message" name="message" class="form-control"
+																 placeholder="Message"></textarea>
+												</div>
+											</div>
+											<!-- reCAPTCHA -->
+											<div class="g-recaptcha" data-sitekey="6Le6CjoUAAAAAFwrgt0yTT0qQWklid4Z1jnhhHY_"></div>
+											<button class="submit-button" type="submit"><i class="fa fa-paper-plane"></i> Send
+											</button>
+											<button class="reset-button" type="reset"><i class="fa fa-ban"></i> Reset</button>
+										</form>
 									</div>
 								</div>
-								<div class="form-group">
-									<div class="input-group">
-										<div class="input-group-addon">
-											<i class="fa fa-envelope"></i>
-										</div>
-										<input type="email" id="email" placeholder="Email">
-									</div>
-								</div>
-								<div class="form-group">
-									<div class="input-group">
-										<div class="input-group-addon">
-											<i class="fa fa-phone"></i>
-										</div>
-										<input type="tel" id="phone" placeholder="Phone">
-									</div>
-								</div>
-								<div class="form-group">
-									<div class="input-group">
-										<div class="input-group-addon">
-											<i class="fa fa-female"></i>
-										</div>
-										<input type="subject" id="subject" placeholder="Subject">
-									</div>
-								</div>
-								<div class="form-group">
-									<div class="input-group">
-										<div class="input-group-addon">
-											<i class="fa fa-comment"></i>
-										</div>
-										<textarea type="text" id="message" placeholder="Message"></textarea>
-									</div>
-								</div>
-								<!-- reCAPTCHA -->
-								<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
-								<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-								<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
-							</form>
+							</div>
+							<div class="col-md-4"></div>
 						</div>
 					</div>
 				</div>

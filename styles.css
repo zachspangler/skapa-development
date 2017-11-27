@@ -149,7 +149,7 @@ li {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-color: #008CBA;
+	background-color: #000000;
 	opacity: .7;
 	overflow: hidden;
 	width: 100%;
@@ -158,7 +158,7 @@ li {
 }
 
 .crowdvibe2:hover .overlay-bottom {
-	height: 70%;
+	height: 100%;
 }
 
 .text-bottom {
@@ -180,7 +180,7 @@ li {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-color: #008CBA;
+	background-color: #000000;
 	opacity: .7;
 	overflow: hidden;
 	width: 0;
@@ -189,7 +189,7 @@ li {
 }
 
 .lalana2:hover .overlay-left {
-	width: 70%;
+	width: 100%;
 }
 
 .text-left {
@@ -198,7 +198,7 @@ li {
 	position: absolute;
 	overflow: hidden;
 	top: 50%;
-	left: 90%;
+	left: 50%;
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 }
@@ -211,7 +211,7 @@ li {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-color: #008CBA;
+	background-color: #000000;
 	opacity: .7;
 	overflow: hidden;
 	width: 0;
@@ -220,7 +220,7 @@ li {
 }
 
 .handoff2:hover .overlay-left-handoff {
-	width: 40%;
+	width: 100%;
 }
 
 .text-left-handoff {
@@ -397,7 +397,6 @@ li {
 #contact-us-text {
 	text-align: center;
 	font-size: 2em;
-	line-height: 10rem;
 	margin-bottom: 0;
 	padding-bottom: 0;
 }
@@ -408,9 +407,14 @@ li {
 	color: #666674;
 }
 
+#contact-us a {
+	color: white;
+	text-decoration: underline;
+}
+
 #headingOne {
 	background-color: #13131C;
-	border-radius: none;
+	border: none;
 }
 
 .card-body {
@@ -420,7 +424,63 @@ li {
 /************************************
 *CONTACT FORM
  ************************************/
+.card {
+	background-color: #13131C;
+	text-align: center;
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+	color: #A5A38E;
+}
 
+i {
+	background: transparent;
+	color: #A5A38E;
+}
+
+.input-group-addon, #customername, #email, #phone, #message {
+	background: transparent;
+	border: none;
+	border-bottom: solid #A5A38E 2px;
+}
+
+.fa-paper-plane {
+	color: #13131C;
+}
+
+.form-group {
+	background: transparent;
+	color: #A5A38E;
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.submit-button {
+	background-color: #A5A38E;
+	color: #13131C;
+	border: none;
+	border-radius: 5%;
+	font-family: 'Montserrat', sans-serif;
+	margin: 1.5em;
+	padding: 1em;
+}
+
+.reset-button {
+	background-color: #666674;
+	color: #13131C;
+	border: none;
+	border-radius: 5%;
+	font-family: 'Montserrat', sans-serif;
+	margin: 1.5em;
+	padding: 1em;
+}
+
+input, select, textarea {
+	color: whitesmoke;
+}
+
+input, select {
+	color: whitesmoke;
+}
 
 /************************************
 *FOOTER
@@ -439,7 +499,7 @@ footer p {
 }
 
 footer a {
-	color: #0E0E1C;
+	color: whitesmoke;
 	text-align: center;
 	padding-bottom: .5em;
 }
