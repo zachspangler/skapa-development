@@ -1,11 +1,54 @@
 /************************************
-*NAV BAR
+*MEDIA QUERIES
+ ************************************/
+
+@media all and (min-width: 960px) {
+	body{
+		font-size: 18px;
+	}
+	#what-we-do {
+		background-image: url("https://dl.dropboxusercontent.com/s/1uke37rz8x8qv92/color-dispersion-vert.jpg?dl=0");
+	}
+	#the-process {
+		background-image: url("https://dl.dropboxusercontent.com/s/831sh0o0auydtxp/color-dispersion.jpg?dl=0");
+	}
+}
+
+@media all and (max-width: 959px) and (min-width: 600px) {
+	body {
+		font-size: 16px;
+	}
+	#what-we-do {
+		background-image: url("https://dl.dropboxusercontent.com/s/1uke37rz8x8qv92/color-dispersion-vert.jpg?dl=0");
+	}
+	#the-process {
+		background-image: none !important;
+		background-color: white;
+	}
+}
+
+@media all and (max-width: 599px) {
+	body{
+		font-size: 12px;
+	}
+	#what-we-do {
+		background-image: none !important;
+		background-color: white;
+	}
+	#the-process {
+		background-image: none !important;
+		background-color: white;
+	}
+}
+
+/************************************
+*GLOBAL
  ************************************/
 .section-heading {
 	text-align: left;
-	margin: 1rem;
-	font-size: 3rem;
+	margin: 1em;
 	color: #40454f;
+	font-size: 2.5em;
 }
 
 section {
@@ -26,19 +69,10 @@ nav a {
 	text-decoration: none;
 }
 
-nav a:hover {
+.nav-item:hover {
 	color: yellow;
 }
 
-.nav-item {
-	color: #232A32;
-	display: inline-block;
-	float: right;
-}
-
-.navbar-nav {
-	float: right;
-}
 
 /************************************
 *JUMBOTRON
@@ -70,7 +104,6 @@ nav a:hover {
  ************************************/
 #what-we-do {
 	text-align: center;
-	background-image: url("https://dl.dropboxusercontent.com/s/1uke37rz8x8qv92/color-dispersion-vert.jpg?dl=0");
 	background-size: cover;
 	padding-bottom: 3em;
 }
@@ -98,27 +131,9 @@ nav a:hover {
  ************************************/
 .section-heading-white {
 	text-align: center;
-	margin: 1rem;
-	font-size: 3rem;
+	margin: 1em;
+	font-size: 2.5em;
 	color: #A5A38E;
-}
-
-#projects {
-	background-color: #13131C;
-}
-
-.crowdvibe {
-	border-bottom: solid #A5A38E 1px;
-	padding: 2em;
-}
-
-.lalana {
-	border-bottom: solid #A5A38E 1px;
-	padding: 2em;
-}
-
-.handoff {
-	padding: 2em;
 }
 
 .image {
@@ -134,11 +149,6 @@ nav a:hover {
 li {
 	color: #A5A38E;
 	font-family: 'Montserrat', sans-serif;
-}
-
-#project-details {
-	color: #666674;
-	font-family: 'Montserrat-bold', sans-serif;
 }
 
 /************************************
@@ -166,6 +176,7 @@ li {
 	font-size: 15px;
 	position: absolute;
 	overflow: hidden;
+	width: 80%;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -197,6 +208,7 @@ li {
 	font-size: 15px;
 	position: absolute;
 	overflow: hidden;
+	width: 80%;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -213,7 +225,7 @@ li {
 	right: 0;
 	background-color: #000000;
 	opacity: .7;
-	overflow: hidden;
+	overflow: visible;
 	width: 0;
 	height: 100%;
 	transition: .5s ease;
@@ -228,6 +240,7 @@ li {
 	font-size: 15px;
 	position: absolute;
 	overflow: hidden;
+	width: 80%;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -237,7 +250,7 @@ li {
 /************************************
 *TEST
  ************************************/
-#projects-2 {
+#featured-work {
 	background-color: whitesmoke;
 	padding-bottom: 2em;
 }
@@ -267,7 +280,7 @@ li {
 	padding: 2em;
 	display: block;
 	border: 1em solid whitesmoke;
-	background-image: url("https://dl.dropboxusercontent.com/s/4shgb3760ind2tj/business.jpg?dl=0");
+	background-image: url("https://dl.dropboxusercontent.com/s/4ufbwubvpw75yi9/handoff.jpg?dl=0");
 	background-size: cover;
 	height: 25rem;
 }
@@ -316,7 +329,7 @@ li {
 	font-size: 2.5em;
 	padding-bottom: 0;
 	margin-bottom: 0;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Vollkorn SC', serif;
 }
 
 #project-description-subtext-center {
@@ -324,13 +337,12 @@ li {
 	font-weight: bold;
 	color: #232A32;
 	font-size: 1em;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Vollkorn SC', serif;
 }
 	/************************************
 	*APPROACH
 	 ************************************/
 #the-process {
-	background-image: url("https://dl.dropboxusercontent.com/s/831sh0o0auydtxp/color-dispersion.jpg?dl=0");
 	background-size: cover;
 	padding-bottom: 4rem;
 }
@@ -342,7 +354,7 @@ li {
 }
 
 .process-description {
-	color: #818a9e;
+	color: #080900;
 	text-align: left;
 	font-size: 1.5em;
 	margin-bottom: 1em;
@@ -417,10 +429,6 @@ li {
 	border: none;
 }
 
-.card-body {
-	background-color: #13131C;
-}
-
 /************************************
 *CONTACT FORM
  ************************************/
@@ -452,6 +460,7 @@ i {
 	border: none;
 	border-bottom: solid #A5A38E 2px;
 	color: white;
+	font-size: 1em;
 }
 
 #name, #email, #phone, #message {
@@ -479,7 +488,7 @@ i {
 	border: none;
 	border-radius: 5%;
 	font-family: 'Montserrat', sans-serif;
-	margin: 1.5em;
+	margin: 1em;
 	padding: 1em;
 }
 
@@ -489,7 +498,7 @@ i {
 	border: none;
 	border-radius: 5%;
 	font-family: 'Montserrat', sans-serif;
-	margin: 1.5em;
+	margin: 1em;
 	padding: 1em;
 }
 

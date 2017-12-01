@@ -36,7 +36,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Vollkorn+SC" rel="stylesheet">
 
 		<!-- Skapa Favicon -->
 		<link rel="shortcut icon" href="https://dl.dropboxusercontent.com/s/tnl4e63cixdw13r/skapa_favicon.png?dl=0"
@@ -58,71 +58,68 @@
 		<!-- Banner -->
 		<div class="jumbotron">
 			<!-- Nav Bar -->
-			<nav class="navbar navbar-expand-lg">
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-						  aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active">
+						<li class="nav-item">
 							<a class="nav-link" href="#what-we-do">What We Do</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#projects-2">Featured Work</a>
+							<a class="nav-link" href="#featured-work">Featured Work</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#the-process">The Process</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#contact-us">Contact</a>
+							<a class="nav-link" href="#contact-us">Contact Us</a>
 						</li>
 					</ul>
 				</div>
 			</nav>
 			<p class="title">SKAPA</p>
-			<p class="h1">DEVELOPMENT</p>
+			<p class="h2">DEVELOPMENT</p>
 			<p class="subtext">Creating Software To Solve Your Problems</p>
 		</div>
 		<!--How It Works-->
 		<section id="what-we-do">
-			<h2 class="section-heading">WHAT WE DO</h2>
+			<p class="h2 section-heading">WHAT WE DO</p>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
-						<p id="about-text">We cover a large range of creative digital projects, platforms, and campaigns with one purpose: <span id="blue-text">to create experiences</span>.</p>
-						<p id="about-subtext">--We transform brands, grow businesses, and tell brand and product stories in a most creative and fascinating way.</p>
+						<p id="about-text">We develop software for businesses with one goal in mind: <span id="blue-text">to improve your business </span>.</p>
+						<p id="about-subtext">--The software we develop grows businesses, transforms processes and cost effectively alleviates pain points and manual tasks.</p>
 					</div>
 					<div class="col-md-6"></div>
 				</div>
 			</div>
 		</section>
 		<!-- Projects-->
-		<section id="projects-2">
-			<h2 class="section-heading-white">FEATURED WORK</h2>
+		<section id="featured-work">
+			<p class="h2 section-heading-white">FEATURED WORK</p>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-5 crowdvibe2" id="crowdvide-test">
-						<p id="project-description-title-left">CrowdVibe</p>
+						<p class="h2" id="project-description-title-left">CrowdVibe</p>
 						<p id="project-description-subtext-left">Social Media Live</p>
 						<div class="overlay-bottom">
 							<div class="text-bottom">
 								<p class="problem"><strong>Problem:</strong> Hard to Meet New People</p>
 								<p class="app-description"><strong>Solution:</strong> Crowdvibe posts live events for you to go to. It also allows you to create attend and rate events</p>
-								<p class="partner"><strong>Partners:</strong> @Luther, @Chris @Matt</p>
 								<p class="services"><strong>Our Work:</strong> Full Site Development</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-7 lalana2" id="lalana-test">
-						<p id="project-description-title">Lalana</p>
+						<p class="h2" id="project-description-title">Lalana</p>
 						<p id="project-description-subtext">Task Management<br>
 							Simplified</p>
 						<div class="overlay-left">
 							<div class="text-left">
 								<p class="problem"><strong>Problem:</strong> Lack of Simple Task Management System</p>
-								<p class="app-description"><strong>Solution:</strong> Lalana was developed to simply the task management process. Using weekly update emails and simplified views for reporting we have
-									changed the industry</p>
+								<p class="app-description"><strong>Solution:</strong> Simplifying the task management process through weekly update emails and simplified reporting.</p>
 								<p class="partner"><strong>Initial Client:</strong> Davita</p>
 								<p class="services"><strong>Our Work:</strong> Full Site Development</p>
 							</div>
@@ -131,13 +128,13 @@
 				</div>
 				<div class="row">
 					<div class="col-md-12 handoff2" id="handoff-test">
-						<p id="project-description-title-center">Handoff</p>
+						<p class="h2" id="project-description-title-center">Handoff</p>
 						<p id="project-description-subtext-center">Simplifying Lead Distribution</p>
 						<div class="overlay-left-handoff">
 							<div class="text-left-handoff">
 								<p class="problem"><strong>Problem:</strong> Lead Distribution to Sales Agent</p>
 								<p class="app-description"><strong>Solution:</strong> Handoff allows companies to choose a
-									vareity of methods to distribute leads to the Inside Sales as well as reporting and tracking success and each sales person</p>
+									variety of methods to distribute leads to the Inside Sales as well as reporting and tracking success.</p>
 								<p class="partner"><strong>Initial Client:</strong> Lavu</p>
 								<p class="services"><strong>Our Work:</strong> Full Site Development</p>
 							</div>
@@ -148,7 +145,7 @@
 		</section>
 		<!--About Us-->
 		<section id="the-process" class="img-fluid">
-			<h2 class="section-heading">THE PROCESS</h2>
+			<p class="h2 section-heading">THE PROCESS</p>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-3">
@@ -156,7 +153,7 @@
 					</div>
 					<div class="col-md-7">
 						<p class="process-name">RESEARCH & IDEATION</p>
-						<p class="process-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p class="process-description">This step is fundamental to our process. We collaborate with you to understand exactly what your business needs and the best way to meet those needs through software development</p>
 					</div>
 					<div class="col-md-2"></div>
 				</div>
@@ -167,7 +164,7 @@
 					</div>
 					<div class="col-md-6">
 						<p class="process-name">PROTOTYPING</p>
-						<p class="process-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p class="process-description">Once we identify the direction of the project Skapa will develop a functional prototype for you to review and ensure it solves the problem we set out to address.</p>
 					</div>
 				</div>
 				<div class="row">
@@ -176,7 +173,7 @@
 					</div>
 					<div class="col-md-7">
 						<p class="process-name">ITERATION</p>
-						<p class="process-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p class="process-description">We then will go through iterations of the software, perfecting the design and function based on your feedback.</p>
 					</div>
 					<div class="col-md-2"></div>
 				</div>
@@ -187,7 +184,7 @@
 					</div>
 					<div class="col-md-6">
 						<p class="process-name">FINAL EXPERIENCE</p>
-						<p class="process-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p class="process-description">Lastly, Skapa delivers the final product to you, ready for full scale use in your business.</p>
 					</div>
 					<div class="col-md-3"></div>
 				</div>
@@ -204,7 +201,7 @@
 					<div class="card-header" role="tab" id="headingOne">
 						<h5 class="mb-0">
 							<a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-								DROP US A LINE
+								EMAIL US
 							</a>
 						</h5>
 					</div>
@@ -244,8 +241,7 @@
 													<div class="input-group-addon">
 														<i class="fa fa-comment"></i>
 													</div>
-													<textarea id="message" name="message" class="form-control"
-																 placeholder="Message"></textarea>
+													<textarea id="message" name="message" class="form-control" placeholder="Message"></textarea>
 												</div>
 											</div>
 											<!-- reCAPTCHA -->
@@ -278,20 +274,17 @@
 					</div>
 				</div>
 				<div class="row" id="reach-out">
-					<div class="col-md-4"></div>
-					<div class="col-md-1">
-						<a href="#">EMAIL</a>
-					</div>
-					<div class="col-md-1">
+					<div class="col-md-3"></div>
+					<div class="col-md-2">
 						<a href="https://www.linkedin.com/in/zachary-spangler-66b1a019/" target="_blank">LINKEDIN</a>
 					</div>
-					<div class="col-md-1">
+					<div class="col-md-2">
 						<a href="https://github.com/zachspangler" target="_blank">GITHUB</a>
 					</div>
-					<div class="col-md-1">
+					<div class="col-md-2">
 						<a href="https://www.facebook.com" target="_blank">FACEBOOK</a>
 					</div>
-					<div class="col-md-4"></div>
+					<div class="col-md-3"></div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
