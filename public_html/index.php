@@ -89,7 +89,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
-						<p id="about-text">We develop software for businesses with one goal in mind: <span id="blue-text">to improve your business </span>.</p>
+						<p id="about-text">We develop software for businesses with one goal in mind: <span id="blue-text">to improve your business</span></p>
 						<p id="about-subtext">--The software we develop grows businesses, transforms processes and cost effectively alleviates pain points and manual tasks.</p>
 					</div>
 					<div class="col-md-6"></div>
@@ -217,7 +217,7 @@
 													<div class="input-group-addon">
 														<i class="fa fa-user"></i>
 													</div>
-													<input type="text" id="name" placeholder="Name">
+													<input type="text" id="name" name="name" placeholder="Name">
 												</div>
 											</div>
 											<div class="form-group">
@@ -225,7 +225,7 @@
 													<div class="input-group-addon">
 														<i class="fa fa-envelope"></i>
 													</div>
-													<input type="email" id="email" placeholder="Email">
+													<input type="email" id="email" name="email" placeholder="Email">
 												</div>
 											</div>
 											<div class="form-group">
@@ -233,7 +233,7 @@
 													<div class="input-group-addon">
 														<i class="fa fa-phone"></i>
 													</div>
-													<input type="tel" id="phone" placeholder="Phone">
+													<input type="tel" id="phone" name="phone" placeholder="Phone">
 												</div>
 											</div>
 											<div class="form-group">

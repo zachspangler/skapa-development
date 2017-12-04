@@ -2,8 +2,7 @@
 /**
  * mailer.php
  *
- * This file handles secure mail transport using the Swiftmailer
- * library with Google reCAPTCHA integration.
+ * This file handles secure mail transport using the Swiftmailer library with Google reCAPTCHA integration.
  *
  * @author Zach Spangler <zaspangler@gmail.com>
  **/
