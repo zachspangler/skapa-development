@@ -21,9 +21,9 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
 		<!-- jQuery Form, Additional Methods, Validate -->
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+<!--		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>-->
+<!--		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>-->
+<!--		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>-->
 
 		<!-- Skapa Development Form Validator -->
 		<script src="js/form-validate.js"></script>
@@ -41,16 +41,6 @@
 		<!-- Skapa Favicon -->
 		<link rel="shortcut icon" href="https://dl.dropboxusercontent.com/s/tnl4e63cixdw13r/skapa_favicon.png?dl=0"
 				type="image/x-icon">
-
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110227165-1"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-
-			gtag('config', 'UA-110227165-1');
-		</script>
 
 		<title>Skapa Development</title>
 	</head>
@@ -85,7 +75,7 @@
 		</div>
 		<!--How It Works-->
 		<section id="what-we-do">
-			<p class="h2 section-heading">WHAT WE DO</p>
+			<h4 class="h2 section-heading">WHAT WE DO</h4>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
@@ -98,7 +88,7 @@
 		</section>
 		<!-- Projects-->
 		<section id="featured-work">
-			<p class="h2 section-heading-white">FEATURED WORK</p>
+			<h4 class="h2 section-heading-white">FEATURED WORK</h4>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-5 crowdvibe2" id="crowdvide-test">
@@ -145,7 +135,7 @@
 		</section>
 		<!--About Us-->
 		<section id="the-process" class="img-fluid">
-			<p class="h2 section-heading">THE PROCESS</p>
+			<h4 class="h2 section-heading">THE PROCESS</h4>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-3">
@@ -288,7 +278,7 @@
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<p>&copy2017 Skapa Development</p>
+						<p>© 2017 Skapa Development</p>
 					</div>
 				</div>
 			</div>
