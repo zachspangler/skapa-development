@@ -64,7 +64,7 @@ try {
 	 * links.
 	 **/
 	$swiftMessage->setBody($message . $phone, "text/html");
-	$swiftMessage->addPart(html_entity_decode($message . $phone, "text/plain"));
+	$swiftMessage->addPart(html_entity_decode($message . " ". $phone, "text/plain"));
 
 	/**
 	 * Send the Email via SMTP. The SMTP server here is configured to relay

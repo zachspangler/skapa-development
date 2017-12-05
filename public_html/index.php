@@ -17,13 +17,17 @@
 
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+				  integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+				  crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+				  integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+				  crossorigin="anonymous"></script>
 
 		<!-- jQuery Form, Additional Methods, Validate -->
-<!--		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>-->
-<!--		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>-->
-<!--		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>-->
+		<!--		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>-->
+		<!--		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>-->
+		<!--		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>-->
 
 		<!-- Skapa Development Form Validator -->
 		<script src="js/form-validate.js"></script>
@@ -49,7 +53,8 @@
 		<div class="jumbotron">
 			<!-- Nav Bar -->
 			<nav class="navbar navbar-expand-lg navbar-light">
-				<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
+						  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNav">
@@ -79,8 +84,10 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
-						<p id="about-text">We develop software for businesses with one goal in mind: <span id="blue-text">to improve your business</span></p>
-						<p id="about-subtext">--The software we develop grows businesses, transforms processes and cost effectively alleviates pain points and manual tasks.</p>
+						<p id="about-text">We develop software for businesses with one goal in mind: <span id="blue-text">to improve your business</span>
+						</p>
+						<p id="about-subtext">--The software we develop grows businesses, transforms processes and cost
+							effectively alleviates pain points and manual tasks.</p>
 					</div>
 					<div class="col-md-6"></div>
 				</div>
@@ -97,7 +104,8 @@
 						<div class="overlay-bottom">
 							<div class="text-bottom">
 								<p class="problem"><strong>Problem:</strong> Hard to Meet New People</p>
-								<p class="app-description"><strong>Solution:</strong> Crowdvibe posts live events for you to go to. It also allows you to create attend and rate events</p>
+								<p class="app-description"><strong>Solution:</strong> Crowdvibe posts live events for you to go
+									to. It also allows you to create attend and rate events</p>
 								<p class="services"><strong>Our Work:</strong> Full Site Development</p>
 							</div>
 						</div>
@@ -109,7 +117,8 @@
 						<div class="overlay-left">
 							<div class="text-left">
 								<p class="problem"><strong>Problem:</strong> Lack of Simple Task Management System</p>
-								<p class="app-description"><strong>Solution:</strong> Simplifying the task management process through weekly update emails and simplified reporting.</p>
+								<p class="app-description"><strong>Solution:</strong> Simplifying the task management process
+									through weekly update emails and simplified reporting.</p>
 								<p class="partner"><strong>Initial Client:</strong> Davita</p>
 								<p class="services"><strong>Our Work:</strong> Full Site Development</p>
 							</div>
@@ -124,7 +133,8 @@
 							<div class="text-left-handoff">
 								<p class="problem"><strong>Problem:</strong> Lead Distribution to Sales Agent</p>
 								<p class="app-description"><strong>Solution:</strong> Handoff allows companies to choose a
-									variety of methods to distribute leads to the Inside Sales as well as reporting and tracking success.</p>
+									variety of methods to distribute leads to the Inside Sales as well as reporting and tracking
+									success.</p>
 								<p class="partner"><strong>Initial Client:</strong> Lavu</p>
 								<p class="services"><strong>Our Work:</strong> Full Site Development</p>
 							</div>
@@ -143,7 +153,9 @@
 					</div>
 					<div class="col-md-7">
 						<p class="process-name">RESEARCH & IDEATION</p>
-						<p class="process-description">This step is fundamental to our process. We collaborate with you to understand exactly what your business needs and the best way to meet those needs through software development</p>
+						<p class="process-description">This step is fundamental to our process. We collaborate with you to
+							understand exactly what your business needs and the best way to meet those needs through software
+							development</p>
 					</div>
 					<div class="col-md-2"></div>
 				</div>
@@ -154,7 +166,8 @@
 					</div>
 					<div class="col-md-6">
 						<p class="process-name">PROTOTYPING</p>
-						<p class="process-description">Once we identify the direction of the project Skapa will develop a functional prototype for you to review and ensure it solves the problem we set out to address.</p>
+						<p class="process-description">Once we identify the direction of the project Skapa will develop a
+							functional prototype for you to review and ensure it solves the problem we set out to address.</p>
 					</div>
 				</div>
 				<div class="row">
@@ -163,7 +176,8 @@
 					</div>
 					<div class="col-md-7">
 						<p class="process-name">ITERATION</p>
-						<p class="process-description">We then will go through iterations of the software, perfecting the design and function based on your feedback.</p>
+						<p class="process-description">We then will go through iterations of the software, perfecting the
+							design and function based on your feedback.</p>
 					</div>
 					<div class="col-md-2"></div>
 				</div>
@@ -174,7 +188,8 @@
 					</div>
 					<div class="col-md-6">
 						<p class="process-name">FINAL EXPERIENCE</p>
-						<p class="process-description">Lastly, Skapa delivers the final product to you, ready for full scale use in your business.</p>
+						<p class="process-description">Lastly, Skapa delivers the final product to you, ready for full scale
+							use in your business.</p>
 					</div>
 					<div class="col-md-3"></div>
 				</div>
@@ -201,7 +216,8 @@
 							<div class="col-md-4">
 								<div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
 									<div class="input-group">
-										<form id="skapa-development-form" action="php/mailer.php" method="post">
+										<!-- END CONTACT FORM -->
+										<form id="skapa-development-form" action="php/mailer.php" method="post" novalidate>
 											<div class="form-group">
 												<div class="input-group">
 													<div class="input-group-addon">
@@ -231,7 +247,8 @@
 													<div class="input-group-addon">
 														<i class="fa fa-comment"></i>
 													</div>
-													<textarea id="message" name="message" class="form-control" placeholder="Message"></textarea>
+													<textarea id="message" name="message" class="form-control"
+																 placeholder="Message"></textarea>
 												</div>
 											</div>
 											<!-- reCAPTCHA -->
@@ -240,6 +257,12 @@
 											</button>
 											<button class="reset-button" type="reset"><i class="fa fa-ban"></i> Reset</button>
 										</form>
+										<!-- END CONTACT FORM -->
+										<div class="row">
+											<div class="col-md-col">
+												<div id="output-area"></div>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -249,11 +272,6 @@
 				</div>
 			</div>
 			<!--empty area for form error/success output-->
-			<div class="row">
-				<div class="col-md-12">
-					<div id="output-area"></div>
-				</div>
-			</div>
 		</section>
 		<!--Footer-->
 		<footer>

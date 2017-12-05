@@ -510,6 +510,10 @@ input, select {
 	color: whitesmoke;
 }
 
+#output-area {
+	height: 20px;
+}
+
 /************************************
 *FOOTER
  ************************************/
