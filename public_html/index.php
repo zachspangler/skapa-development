@@ -25,9 +25,12 @@
 				  crossorigin="anonymous"></script>
 
 		<!-- jQuery Form, Additional Methods, Validate -->
-				<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-				<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-				<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
 		<!-- Skapa Development Form Validator -->
 		<script src="js/form-validate.js"></script>
@@ -153,7 +156,8 @@
 					</div>
 					<div class="col-md-7">
 						<p class="process-name container-fluid">RESEARCH & IDEATION</p>
-						<p class="process-description container-fluid">This step is fundamental to our process. We collaborate with you to
+						<p class="process-description container-fluid">This step is fundamental to our process. We collaborate
+							with you to
 							understand exactly what your business needs and the best way to meet those needs through software
 							development</p>
 					</div>
@@ -166,7 +170,8 @@
 					</div>
 					<div class="col-md-6">
 						<p class="process-name container-fluid">PROTOTYPING</p>
-						<p class="process-description container-fluid">Once we identify the direction of the project Skapa will develop a
+						<p class="process-description container-fluid">Once we identify the direction of the project Skapa
+							will develop a
 							functional prototype for you to review and ensure it solves the problem we set out to address.</p>
 					</div>
 				</div>
@@ -176,7 +181,8 @@
 					</div>
 					<div class="col-md-6">
 						<p class="process-name container-fluid">ITERATION</p>
-						<p class="process-description container-fluid">We then will go through iterations of the software, perfecting the
+						<p class="process-description container-fluid">We then will go through iterations of the software,
+							perfecting the
 							design and function based on your feedback.</p>
 					</div>
 					<div class="col-md-1"></div>
@@ -188,7 +194,8 @@
 					</div>
 					<div class="col-md-6">
 						<p class="process-name container-fluid">FINAL EXPERIENCE</p>
-						<p class="process-description container-fluid">Lastly, Skapa delivers the final product to you, ready for full scale
+						<p class="process-description container-fluid">Lastly, Skapa delivers the final product to you, ready
+							for full scale
 							use in your business.</p>
 					</div>
 					<div class="col-md-3"></div>
@@ -210,14 +217,14 @@
 							</a>
 						</h5>
 					</div>
-					<div class="container contact-form">
+					<div class="container-fluid contact-form">
 						<div class="row">
 							<div class="col-md-4"></div>
 							<div class="col-md-4">
 								<div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
 									<div class="input-group">
 										<!-- START CONTACT FORM -->
-										<form id="skapa-development-form" action="php/mailer.php" method="post" novalidate>
+										<form class="align-content-center" id="skapa-development-form" action="php/mailer.php" method="post" novalidate>
 											<div class="form-group">
 												<div class="input-group">
 													<div class="input-group-addon">
@@ -231,7 +238,8 @@
 													<div class="input-group-addon">
 														<i class="fa fa-envelope" aria-hidden="true"></i>
 													</div>
-													<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+													<input type="email" class="form-control" id="email" name="email"
+															 placeholder="Email">
 												</div>
 											</div>
 											<div class="form-group">
@@ -239,11 +247,12 @@
 													<div class="input-group-addon">
 														<i class="fa fa-phone" aria-hidden="true"></i>
 													</div>
-													<input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone">
+													<input type="tel" class="form-control" id="phone" name="phone"
+															 placeholder="Phone">
 												</div>
 											</div>
 											<div class="form-group">
-												<div class="input-group" >
+												<div class="input-group">
 													<div class="input-group-addon">
 														<i class="fa fa-comment" aria-hidden="true"></i>
 													</div>
@@ -263,18 +272,14 @@
 							</div>
 							<div class="col-md-4"></div>
 						</div>
-					</div>
 						<div class="row output-row">
-							<div class="col">
-								<div class="col-md-4"></div>
-								<div class="col-md-4">
-									<div id="output-area"></div>
-								</div>
-								<div class="col-md-4"></div>
+							<div class="col-md-12">
+								<div id="output-area"></div>
 							</div>
 						</div>
 					</div>
 				</div>
+			</div>
 			<!--empty area for form error/success output-->
 		</section>
 		<!--Footer-->
