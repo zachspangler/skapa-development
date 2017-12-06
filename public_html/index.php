@@ -25,9 +25,9 @@
 				  crossorigin="anonymous"></script>
 
 		<!-- jQuery Form, Additional Methods, Validate -->
-		<!--		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>-->
-		<!--		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>-->
-		<!--		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>-->
+				<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+				<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+				<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
 		<!-- Skapa Development Form Validator -->
 		<script src="js/form-validate.js"></script>
@@ -152,8 +152,8 @@
 						<p class="container-fluid process-number-odd">01</p>
 					</div>
 					<div class="col-md-7">
-						<p class="process-name">RESEARCH & IDEATION</p>
-						<p class="process-description">This step is fundamental to our process. We collaborate with you to
+						<p class="process-name container-fluid">RESEARCH & IDEATION</p>
+						<p class="process-description container-fluid">This step is fundamental to our process. We collaborate with you to
 							understand exactly what your business needs and the best way to meet those needs through software
 							development</p>
 					</div>
@@ -165,21 +165,21 @@
 						<p class="container-fluid" id="process-number-two">02</p>
 					</div>
 					<div class="col-md-6">
-						<p class="process-name">PROTOTYPING</p>
-						<p class="process-description">Once we identify the direction of the project Skapa will develop a
+						<p class="process-name container-fluid">PROTOTYPING</p>
+						<p class="process-description container-fluid">Once we identify the direction of the project Skapa will develop a
 							functional prototype for you to review and ensure it solves the problem we set out to address.</p>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-3">
+					<div class="col-md-4">
 						<p class="container-fluid process-number-odd">03</p>
 					</div>
-					<div class="col-md-7">
-						<p class="process-name">ITERATION</p>
-						<p class="process-description">We then will go through iterations of the software, perfecting the
+					<div class="col-md-6">
+						<p class="process-name container-fluid">ITERATION</p>
+						<p class="process-description container-fluid">We then will go through iterations of the software, perfecting the
 							design and function based on your feedback.</p>
 					</div>
-					<div class="col-md-2"></div>
+					<div class="col-md-1"></div>
 				</div>
 				<div class="row">
 					<div class="col-md-2"></div>
@@ -187,8 +187,8 @@
 						<p class="container-fluid" id="process-number-four">04</p>
 					</div>
 					<div class="col-md-6">
-						<p class="process-name">FINAL EXPERIENCE</p>
-						<p class="process-description">Lastly, Skapa delivers the final product to you, ready for full scale
+						<p class="process-name container-fluid">FINAL EXPERIENCE</p>
+						<p class="process-description container-fluid">Lastly, Skapa delivers the final product to you, ready for full scale
 							use in your business.</p>
 					</div>
 					<div class="col-md-3"></div>
@@ -216,36 +216,36 @@
 							<div class="col-md-4">
 								<div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
 									<div class="input-group">
-										<!-- END CONTACT FORM -->
+										<!-- START CONTACT FORM -->
 										<form id="skapa-development-form" action="php/mailer.php" method="post" novalidate>
 											<div class="form-group">
 												<div class="input-group">
 													<div class="input-group-addon">
-														<i class="fa fa-user"></i>
+														<i class="fa fa-user" aria-hidden="true"></i>
 													</div>
-													<input type="text" id="name" name="name" placeholder="Name">
+													<input type="text" id="name" name="name" class="form-control" placeholder="Name">
 												</div>
 											</div>
 											<div class="form-group">
 												<div class="input-group">
 													<div class="input-group-addon">
-														<i class="fa fa-envelope"></i>
+														<i class="fa fa-envelope" aria-hidden="true"></i>
 													</div>
-													<input type="email" id="email" name="email" placeholder="Email">
+													<input type="email" class="form-control" id="email" name="email" placeholder="Email">
 												</div>
 											</div>
 											<div class="form-group">
 												<div class="input-group">
 													<div class="input-group-addon">
-														<i class="fa fa-phone"></i>
+														<i class="fa fa-phone" aria-hidden="true"></i>
 													</div>
-													<input type="tel" id="phone" name="phone" placeholder="Phone">
+													<input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone">
 												</div>
 											</div>
 											<div class="form-group">
-												<div class="input-group">
+												<div class="input-group" >
 													<div class="input-group-addon">
-														<i class="fa fa-comment"></i>
+														<i class="fa fa-comment" aria-hidden="true"></i>
 													</div>
 													<textarea id="message" name="message" class="form-control"
 																 placeholder="Message"></textarea>
@@ -258,19 +258,23 @@
 											<button class="reset-button" type="reset"><i class="fa fa-ban"></i> Reset</button>
 										</form>
 										<!-- END CONTACT FORM -->
-										<div class="row">
-											<div class="col-md-col">
-												<div id="output-area"></div>
-											</div>
-										</div>
 									</div>
 								</div>
 							</div>
 							<div class="col-md-4"></div>
 						</div>
 					</div>
+						<div class="row output-row">
+							<div class="col">
+								<div class="col-md-4"></div>
+								<div class="col-md-4">
+									<div id="output-area"></div>
+								</div>
+								<div class="col-md-4"></div>
+							</div>
+						</div>
+					</div>
 				</div>
-			</div>
 			<!--empty area for form error/success output-->
 		</section>
 		<!--Footer-->

@@ -69,11 +69,6 @@ nav a {
 	text-decoration: none;
 }
 
-.nav-item:hover {
-	color: yellow;
-}
-
-
 /************************************
 *JUMBOTRON
  ************************************/
@@ -150,6 +145,8 @@ li {
 	color: #A5A38E;
 	font-family: 'Montserrat', sans-serif;
 }
+
+
 
 /************************************
 *OVERLAY FROM BOTTOM - CROWDVIBE
@@ -510,8 +507,8 @@ input, select {
 	color: whitesmoke;
 }
 
-#output-area {
-	height: 20px;
+.output-row {
+	height: auto;
 }
 
 /************************************
