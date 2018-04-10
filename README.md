@@ -48,3 +48,13 @@ Nice work - your Milestone 2&alpha; passes at [Tier IV](https://bootcamp-coders.
 Awesome Job On PWP Milestone2A. Other than a few content changes and cleaning up padding issues your PWP seems (minus contact form) polished and ready for final delivery. I do reccommend changing the font color for the process sesction (it can be very hard to read.
 
 ### TIER IV
+
+## PWP Final Feedback
+Congratulations on a PWP well done. Your contact form appears to work perfectly - check your email for my test message. Your design choices, code, and general implementation reflect a professional-level standard; and you've challenged yourself with a truly custom theme. Nice work!
+
+Your PWP passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Your overall grade across all of your PWP Milestones is 40/40 points (100%).
+
+- Milestone 1 - 20%: Tier IV 40(0.2) = 8
+- Milestone 2a - 20%: Tier IV 40(0.2) = 8
+- Milestone 2b - 10%: Tier IV 40(0.1) = 4
+- Milestone 3 - 50%: Tier IV 40(0.5) = 20
