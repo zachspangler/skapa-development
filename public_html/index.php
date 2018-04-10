@@ -45,6 +45,10 @@
 		<link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Vollkorn+SC" rel="stylesheet">
 
+		<!--Google Site -->
+		<meta name="google-site-verification" content="8E4zZcZC7ZdTRjI5TKbb-pQQtaRUw8N98ioMPZKV4wY" />
+
+
 		<!-- Skapa Favicon -->
 		<link rel="shortcut icon" href="https://dl.dropboxusercontent.com/s/tnl4e63cixdw13r/skapa_favicon.png?dl=0"
 				type="image/x-icon">
@@ -87,10 +91,9 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
-						<p id="about-text">We develop software for businesses with one goal in mind: <span id="blue-text">to improve your business</span>
+						<p id="about-text">We develop cloud-based software for businesses with one goal in mind: <span id="blue-text">improve efficiency</span>
 						</p>
-						<p id="about-subtext">--The software we develop grows businesses, transforms processes and cost
-							effectively alleviates pain points and manual tasks.</p>
+						<p id="about-subtext">--Our cost-effective software grows business by transforming processes.</p>
 					</div>
 					<div class="col-md-6"></div>
 				</div>
@@ -102,14 +105,13 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-5 crowdvibe2" id="crowdvide-test">
-						<p class="h2" id="project-description-title-left">CrowdVibe</p>
-						<p id="project-description-subtext-left">Social Media Live</p>
+						<p class="h2" id="project-description-title-left">Menuade</p>
+						<p id="project-description-subtext-left">Connecting Restaurants to Customers</p>
 						<div class="overlay-bottom">
 							<div class="text-bottom">
-								<p class="problem"><strong>Problem:</strong> Hard to Meet New People</p>
-								<p class="app-description"><strong>Solution:</strong> Crowdvibe posts live events for you to go
-									to. It also allows you to create attend and rate events</p>
-								<p class="services"><strong>Our Work:</strong> Full Site Development</p>
+								<p class="problem"><strong>Problem:</strong> Poor Restaurant Web Presence </p>
+								<p class="app-description"><strong>Solution:</strong> Menuade was created to allows restaurant owners, to create a modern, easy-to-manage website for their restaurant in minutes. Empowering you to convert curious restaurant goers into regular diners. </p>
+								<p class="services"><strong>Technology:</strong> Cloud-based Full Stack Development</p>
 							</div>
 						</div>
 					</div>
@@ -119,11 +121,10 @@
 							Simplified</p>
 						<div class="overlay-left">
 							<div class="text-left">
-								<p class="problem"><strong>Problem:</strong> Lack of Simple Task Management System</p>
+								<p class="problem"><strong>Problem:</strong> Arduous Task Management System</p>
 								<p class="app-description"><strong>Solution:</strong> Simplifying the task management process
 									through weekly update emails and simplified reporting.</p>
-								<p class="partner"><strong>Initial Client:</strong> Davita</p>
-								<p class="services"><strong>Our Work:</strong> Full Site Development</p>
+								<p class="services"><strong>Technology:</strong> Cloud-based Full Stack Development</p>
 							</div>
 						</div>
 					</div>
@@ -131,15 +132,12 @@
 				<div class="row">
 					<div class="col-md-12 handoff2" id="handoff-test">
 						<p class="h2" id="project-description-title-center">Handoff</p>
-						<p id="project-description-subtext-center">Simplifying Lead Distribution</p>
+						<p id="project-description-subtext-center">Optimizing Lead Distribution</p>
 						<div class="overlay-left-handoff">
 							<div class="text-left-handoff">
 								<p class="problem"><strong>Problem:</strong> Lead Distribution to Sales Agent</p>
-								<p class="app-description"><strong>Solution:</strong> Handoff allows companies to choose a
-									variety of methods to distribute leads to the Inside Sales as well as reporting and tracking
-									success.</p>
-								<p class="partner"><strong>Initial Client:</strong> Lavu</p>
-								<p class="services"><strong>Our Work:</strong> Full Site Development</p>
+								<p class="app-description"><strong>Solution:</strong> Handoff ultimately increases sales by allows companies to choose a variety of methods to distribute leads to the right sales agents. It also includes a robust reporting and tracking suite.</p>
+								<p class="services"><strong>Our Work:</strong> Cloud-based Full Stack Development</p>
 							</div>
 						</div>
 					</div>
@@ -148,18 +146,16 @@
 		</section>
 		<!--About Us-->
 		<section id="the-process" class="img-fluid">
-			<h4 class="h2 section-heading">THE PROCESS</h4>
+			<h4 class="h2 section-heading"><span id="blue-text">THE PROCESS</span></h4>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-3">
 						<p class="container-fluid process-number-odd">01</p>
 					</div>
 					<div class="col-md-7">
-						<p class="process-name container-fluid">RESEARCH & IDEATION</p>
-						<p class="process-description container-fluid">This step is fundamental to our process. We collaborate
-							with you to
-							understand exactly what your business needs and the best way to meet those needs through software
-							development</p>
+						<p class="process-name container-fluid">DISCOVER</p>
+						<p class="process-description container-fluid">We collaborate
+							with you to understand all the critical details and requirements of your application and find exactly where Skapa can help. </p>
 					</div>
 					<div class="col-md-2"></div>
 				</div>
@@ -171,8 +167,7 @@
 					<div class="col-md-6">
 						<p class="process-name container-fluid">PROTOTYPING</p>
 						<p class="process-description container-fluid">Once we identify the direction of the project Skapa
-							will develop a
-							functional prototype for you to review and ensure it solves the problem we set out to address.</p>
+							will develop a functional prototype to review and ensure it solves your business' problems.</p>
 					</div>
 				</div>
 				<div class="row">
@@ -182,8 +177,7 @@
 					<div class="col-md-6">
 						<p class="process-name container-fluid">ITERATION</p>
 						<p class="process-description container-fluid">We then will go through iterations of the software,
-							perfecting the
-							design and function based on your feedback.</p>
+							perfecting the design and function based on your feedback.</p>
 					</div>
 					<div class="col-md-1"></div>
 				</div>
@@ -193,10 +187,9 @@
 						<p class="container-fluid" id="process-number-four">04</p>
 					</div>
 					<div class="col-md-6">
-						<p class="process-name container-fluid">FINAL EXPERIENCE</p>
+						<p class="process-name container-fluid">FINAL PRODUCT</p>
 						<p class="process-description container-fluid">Lastly, Skapa delivers the final product to you, ready
-							for full scale
-							use in your business.</p>
+							for full scale use in your business.</p>
 					</div>
 					<div class="col-md-3"></div>
 				</div>
@@ -204,108 +197,62 @@
 		</section>
 		<!--Contact Us-->
 		<section id="contact-us">
-			<h2 class="h1" id="contact-us-text">Interested in working together?</h2>
-			<p class="contact-us-subtext">We are always looking for new partners and projects</p>
-			<p class="contact-us-subtext">Shoot us an email or fill out the contact form below to get the conversation
-				started</p>
-			<div id="accordion" role="tablist">
-				<div class="card">
-					<div class="card-header" role="tab" id="headingOne">
-						<h5 class="mb-0">
-							<a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-								EMAIL US
-							</a>
-						</h5>
-					</div>
-					<div class="container-fluid contact-form">
-						<div class="row">
-							<div class="col-md-4"></div>
-							<div class="col-md-4">
-								<div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
-									<div class="input-group">
-										<!-- START CONTACT FORM -->
-										<form class="align-content-center" id="skapa-development-form" action="php/mailer.php" method="post" novalidate>
-											<div class="form-group">
-												<div class="input-group">
-													<div class="input-group-addon">
-														<i class="fa fa-user" aria-hidden="true"></i>
-													</div>
-													<input type="text" id="name" name="name" class="form-control" placeholder="Name">
-												</div>
-											</div>
-											<div class="form-group">
-												<div class="input-group">
-													<div class="input-group-addon">
-														<i class="fa fa-envelope" aria-hidden="true"></i>
-													</div>
-													<input type="email" class="form-control" id="email" name="email"
-															 placeholder="Email">
-												</div>
-											</div>
-											<div class="form-group">
-												<div class="input-group">
-													<div class="input-group-addon">
-														<i class="fa fa-phone" aria-hidden="true"></i>
-													</div>
-													<input type="tel" class="form-control" id="phone" name="phone"
-															 placeholder="Phone">
-												</div>
-											</div>
-											<div class="form-group">
-												<div class="input-group">
-													<div class="input-group-addon">
-														<i class="fa fa-comment" aria-hidden="true"></i>
-													</div>
-													<textarea id="message" name="message" class="form-control"
-																 placeholder="Message"></textarea>
-												</div>
-											</div>
-											<!-- reCAPTCHA -->
-											<div class="g-recaptcha" data-sitekey="6Le6CjoUAAAAAFwrgt0yTT0qQWklid4Z1jnhhHY_"></div>
-											<button class="submit-button" type="submit"><i class="fa fa-paper-plane"></i> Send
-											</button>
-											<button class="reset-button" type="reset"><i class="fa fa-ban"></i> Reset</button>
-										</form>
-										<!-- END CONTACT FORM -->
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4"></div>
-						</div>
-						<div class="row output-row">
-							<div class="col-md-12">
-								<div id="output-area"></div>
-							</div>
-						</div>
+			<div class="container my-5 py-5">
+				<div class="row">
+					<div class="col-md-12">
+						<h4 class="h2 section-heading-white m-0 p-0">CONNECT</h4>
+						<hr class="my-4" size="50px" color="#081120" width="10%">
+						<h3 class="contact-us-subtext mt-1">We are always looking for new partners and projects</h3>
+						<h3 class="contact-us-subtext mt-1">Send us an email to connect with us at <span id="blue-text"><a href="mailto:info@skapadevelopment.com">info@skapadevelopment.com</a></span></h3>
 					</div>
 				</div>
+				<div class="row">
+					<div class="col-md-12">
+
+					</div>
+				</div>
+<!--				<div class="row mt-4">-->
+<!--					<div class="col-md-4">-->
+<!--						<span class="fa-stack fa-4x">-->
+<!--						  <i class="fa fa-circle fa-stack-2x text-primary"></i>-->
+<!--						  <i class="fa fa-cloud fa-stack-1x fa-inverse"></i>-->
+<!--						</span>-->
+<!--						<h4 class="service-heading">Cloud Based</h4>-->
+<!--						<p class="text-muted">All our development is cloud based software because of the significant advantages it offers business.</p>-->
+<!--					</div>-->
+<!--					<div class="col-md-4">-->
+<!--						<span class="fa-stack fa-4x">-->
+<!--						  <i class="fa fa-circle fa-stack-2x text-primary"></i>-->
+<!--						  <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>-->
+<!--						</span>-->
+<!--						<h4 class="service-heading">Custom Solutions</h4>-->
+<!--						<p class="text-muted">Skapa specializes in creating custom software solutions to enhance your business process.</p>-->
+<!--					</div>-->
+<!--					<div class="col-md-4">-->
+<!--						<span class="fa-stack fa-4x">-->
+<!--						  <i class="fa fa-circle fa-stack-2x text-primary"></i>-->
+<!--						  <i class="fa fa-lock fa-stack-1x fa-inverse"></i>-->
+<!--						</span>-->
+<!--						<h4 class="service-heading">Security</h4>-->
+<!--						<p class="text-muted">Skapa builds security into every layer of our software to ensure your information and data is safe.</p>-->
+<!--					</div>-->
+<!--				</div>-->
 			</div>
-			<!--empty area for form error/success output-->
 		</section>
 		<!--Footer-->
 		<footer>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12">
-						<p>Interest in connecting another way, check out our online presence</p>
+					<div class="col-md-6">
+						<h4 class="contact-us-subtext"><i class="fa fa-envelope-open"></i> <a href="mailto:info@skapadevelopment.com">info@skapadevelopment.com</a></h4>
 					</div>
-				</div>
-				<div class="row" id="reach-out">
-					<div class="col-md-3"></div>
-					<div class="col-md-2">
-						<a href="https://www.linkedin.com/in/zachary-spangler-66b1a019/" target="_blank">LINKEDIN</a>
+					<div class="col-md-6">
+						<h4 class="contact-us-subtext"><i class="fa fa-map-marker"></i> Based in Chelan, WA & Albuquerque, NM</h4>
 					</div>
-					<div class="col-md-2">
-						<a href="https://github.com/zachspangler" target="_blank">GITHUB</a>
-					</div>
-					<div class="col-md-2">
-						<a href="https://www.facebook.com" target="_blank">FACEBOOK</a>
-					</div>
-					<div class="col-md-3"></div>
 				</div>
 				<div class="row">
-					<div class="col-md-12">
-						<p>© 2017 Skapa Development</p>
+					<div class="col-md-12 mt-3">
+						<h5 class="contact-us-subtext">© 2017 Skapa Development</h5>
 					</div>
 				</div>
 			</div>
