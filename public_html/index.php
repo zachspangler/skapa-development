@@ -53,7 +53,7 @@
 		<link rel="shortcut icon" href="https://dl.dropboxusercontent.com/s/tnl4e63cixdw13r/skapa_favicon.png?dl=0"
 				type="image/x-icon">
 
-		<title>Skapa Development</title>
+		<title>Skapa Development | Custom Business Software</title>
 	</head>
 	<body>
 		<!-- Banner -->
@@ -136,7 +136,7 @@
 						<div class="overlay-left-handoff">
 							<div class="text-left-handoff">
 								<p class="problem"><strong>Problem:</strong> Lead Distribution to Sales Agent</p>
-								<p class="app-description"><strong>Solution:</strong> Handoff ultimately increases sales by allows companies to choose a variety of methods to distribute leads to the right sales agents. It also includes a robust reporting and tracking suite.</p>
+								<p class="app-description"><strong>Solution:</strong> Handoff ultimately increases sales by allowing companies to choose a variety of methods to distribute leads to the right sales agents. It also includes a robust reporting and tracking suite.</p>
 								<p class="services"><strong>Our Work:</strong> Cloud-based Full Stack Development</p>
 							</div>
 						</div>
