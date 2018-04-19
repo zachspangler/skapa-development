@@ -110,7 +110,7 @@
 						<div class="overlay-bottom">
 							<div class="text-bottom">
 								<p class="problem"><strong>Problem:</strong> Poor Restaurant Web Presence </p>
-								<p class="app-description"><strong>Solution:</strong> Menuade was created to allows restaurant owners, to create a modern, easy-to-manage website for their restaurant in minutes. Empowering you to convert curious restaurant goers into regular diners. </p>
+								<p class="app-description"><strong>Solution:</strong> Menuade was created to allow restaurant owners, to create a modern, easy-to-manage website for their restaurant in minutes. Empowering restaurant owners to convert curious restaurant goers into regular diners.</p>
 								<p class="services"><strong>Technology:</strong> Cloud-based Full Stack Development</p>
 							</div>
 						</div>
