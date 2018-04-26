@@ -48,6 +48,8 @@
 		<!--Google Site -->
 		<meta name="google-site-verification" content="8E4zZcZC7ZdTRjI5TKbb-pQQtaRUw8N98ioMPZKV4wY" />
 
+		<!--Meta Tags-->
+		<meta name="description" content="Custom Business Software developed to make your business more efficient, profitable, and competitive.">
 
 		<!-- Skapa Favicon -->
 		<link rel="shortcut icon" href="https://dl.dropboxusercontent.com/s/tnl4e63cixdw13r/skapa_favicon.png?dl=0"
@@ -74,6 +76,9 @@
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#the-process">The Process</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="http://blog.skapadevelopment.com/">Blog</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#contact-us">Contact Us</a>
